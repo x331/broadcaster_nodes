@@ -1,0 +1,29 @@
+Warning: '/work/ssahibul_umass_edu/.conda/envs' already in 'envs_dirs' list, moving to the bottom
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.x
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.tx
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.allx
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.y
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.ty
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.ally
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.graph
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.test.index
+Processing...
+Done!
+Traceback (most recent call last):
+  File "testing2layer.py", line 34, in <module>
+    netTest2layer(argv) 
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/layer2Test.py", line 32, in netTest2layer
+    argv[7] = Planetoid(root='/tmp/'+argv[1], name=argv[1])
+  File "/home/ssahibul_umass_edu/.local/lib/python3.8/site-packages/torch_geometric/datasets/planetoid.py", line 94, in __init__
+    self.data, self.slices = torch.load(self.processed_paths[0])
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/site-packages/torch/serialization.py", line 713, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/site-packages/torch/serialization.py", line 905, in _legacy_load
+    return legacy_load(f)
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/site-packages/torch/serialization.py", line 802, in legacy_load
+    tar.extract('storages', path=tmpdir)
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/tarfile.py", line 2060, in extract
+    tarinfo = self.getmember(member)
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/tarfile.py", line 1782, in getmember
+    raise KeyError("filename %r not found" % name)
+KeyError: "filename 'storages' not found"

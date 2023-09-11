@@ -1,0 +1,15 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs_mean_last4/br2_GAT_CiteSeer_test12_iter10_clus-1_wait0_lr.001_lrdecay.001_6799972; CiteSeer; iter:10; net set:12; conv type:GAT, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.001, lr decay:0.001 
+loop:0 Accuracy: 0.6840 Time: 2.3708
+loop:1 Accuracy: 0.6890 Time: 1.6224
+loop:2 Accuracy: 0.6920 Time: 1.6239
+loop:3 Accuracy: 0.6780 Time: 1.6256
+loop:4 Accuracy: 0.6560 Time: 1.6177
+loop:5 Accuracy: 0.6880 Time: 1.6238
+loop:6 Accuracy: 0.6650 Time: 1.6146
+loop:7 Accuracy: 0.6600 Time: 1.6214
+loop:8 Accuracy: 0.6530 Time: 1.6159
+loop:9 Accuracy: 0.6740 Time: 1.6195
+average: 0.6738999999999999,...0.014540747344388202,... [[0], [0]]...1.6955674421042204, ... 88.5 ... 0.6925000000000001 ... 0.674
+----------.....................e.......................--------
+ials-gpu019

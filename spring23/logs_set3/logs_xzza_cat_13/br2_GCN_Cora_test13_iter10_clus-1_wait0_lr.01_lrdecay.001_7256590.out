@@ -1,0 +1,278 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590; Cora; iter:10; net set:13; conv type:GCN, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.01, lr decay:0.001 
+loop:0 Accuracy: 0.8010 Time: 1.7601
+loop:1 Accuracy: 0.8090 Time: 0.9537
+loop:2 Accuracy: 0.8130 Time: 0.9528
+loop:3 Accuracy: 0.7960 Time: 0.9572
+loop:4 Accuracy: 0.8070 Time: 0.9509
+loop:5 Accuracy: 0.8120 Time: 0.9498
+loop:6 Accuracy: 0.8090 Time: 0.9481
+loop:7 Accuracy: 0.8080 Time: 0.9555
+loop:8 Accuracy: 0.8120 Time: 0.9559
+loop:9 Accuracy: 0.8070 Time: 0.9524
+average: 0.8074000000000001,...0.005274677451960653,... [[0], [0]]...1.033638413436711, ... 156.8 ... 0.8209 ... 0.807
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7750 Time: 5.8255
+loop:1 Accuracy: 0.7600 Time: 6.6517
+loop:2 Accuracy: 0.7910 Time: 5.5422
+loop:3 Accuracy: 0.7710 Time: 6.6863
+loop:4 Accuracy: 0.7470 Time: 5.8952
+loop:5 Accuracy: 0.7450 Time: 5.8820
+loop:6 Accuracy: 0.7850 Time: 5.8176
+loop:7 Accuracy: 0.7750 Time: 5.8786
+loop:8 Accuracy: 0.7640 Time: 5.7765
+loop:9 Accuracy: 0.8030 Time: 6.0196
+average: 0.7716000000000001,...0.018470396735196463,... [[0], [400]]...5.997508445009589, ... 90.5 ... 0.8009999999999999 ... 0.803
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7980 Time: 26.8695
+loop:1 Accuracy: 0.7970 Time: 24.4948
+loop:2 Accuracy: 0.7720 Time: 25.6441
+loop:3 Accuracy: 0.7720 Time: 26.3969
+loop:4 Accuracy: 0.7690 Time: 24.5578
+loop:5 Accuracy: 0.7810 Time: 26.5771
+loop:6 Accuracy: 0.7860 Time: 24.6007
+loop:7 Accuracy: 0.7800 Time: 25.3746
+loop:8 Accuracy: 0.7850 Time: 26.1768
+loop:9 Accuracy: 0.7930 Time: 26.0670
+average: 0.7833,...0.010456789394668167,... [[0], [100]]...25.675917163677514, ... 121.9 ... 0.8119 ... 0.793
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7740 Time: 10.5579
+loop:1 Accuracy: 0.7740 Time: 10.8657
+loop:2 Accuracy: 0.7790 Time: 9.8172
+loop:3 Accuracy: 0.7510 Time: 10.4579
+loop:4 Accuracy: 0.7850 Time: 9.3490
+loop:5 Accuracy: 0.7870 Time: 11.1321
+loop:6 Accuracy: 0.7710 Time: 11.2230
+loop:7 Accuracy: 0.7800 Time: 10.1260
+loop:8 Accuracy: 0.7500 Time: 10.3835
+loop:9 Accuracy: 0.7760 Time: 10.2323
+average: 0.7727,...0.012702143301208845,... [[0], [400, 400]]...10.414461009390653, ... 58.9 ... 0.8018000000000001 ... 0.776
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7580 Time: 28.9740
+loop:1 Accuracy: 0.7740 Time: 28.9600
+loop:2 Accuracy: 0.7770 Time: 30.0849
+loop:3 Accuracy: 0.7780 Time: 29.2198
+loop:4 Accuracy: 0.7930 Time: 30.3547
+loop:5 Accuracy: 0.8020 Time: 30.5845
+loop:6 Accuracy: 0.7870 Time: 28.2560
+loop:7 Accuracy: 0.7770 Time: 31.0654
+loop:8 Accuracy: 0.7630 Time: 30.1818
+loop:9 Accuracy: 0.7930 Time: 31.1064
+average: 0.7802,...0.013750151514316742,... [[0], [400, 100]]...29.878747181780636, ... 113.1 ... 0.8042000000000001 ... 0.795
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7890 Time: 30.8843
+loop:1 Accuracy: 0.7790 Time: 28.2742
+loop:2 Accuracy: 0.7740 Time: 29.8331
+loop:3 Accuracy: 0.7840 Time: 30.2260
+loop:4 Accuracy: 0.7970 Time: 30.1973
+loop:5 Accuracy: 0.8060 Time: 31.2284
+loop:6 Accuracy: 0.7720 Time: 29.1751
+loop:7 Accuracy: 0.7770 Time: 32.0391
+loop:8 Accuracy: 0.7550 Time: 27.5189
+loop:9 Accuracy: 0.7910 Time: 29.7921
+average: 0.7824000000000002,...0.014377451481786036,... [[0], [100, 400]]...29.916854869201778, ... 107.7 ... 0.8077 ... 0.791
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7760 Time: 49.7482
+loop:1 Accuracy: 0.7960 Time: 49.3012
+loop:2 Accuracy: 0.7800 Time: 53.7803
+loop:3 Accuracy: 0.7940 Time: 49.2720
+loop:4 Accuracy: 0.7970 Time: 49.7533
+loop:5 Accuracy: 0.7920 Time: 48.4721
+loop:6 Accuracy: 0.7860 Time: 48.9520
+loop:7 Accuracy: 0.7830 Time: 49.2396
+loop:8 Accuracy: 0.7830 Time: 49.7230
+loop:9 Accuracy: 0.7610 Time: 51.2610
+average: 0.7848000000000002,...0.010982814858779257,... [[0], [100, 100]]...49.95026867967099, ... 132.5 ... 0.8090999999999999 ... 0.76
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7860 Time: 1.6259
+loop:1 Accuracy: 0.7630 Time: 1.6053
+loop:2 Accuracy: 0.7630 Time: 1.6152
+loop:3 Accuracy: 0.7740 Time: 1.5996
+loop:4 Accuracy: 0.7670 Time: 1.5988
+loop:5 Accuracy: 0.7630 Time: 1.5979
+loop:6 Accuracy: 0.7410 Time: 1.6171
+loop:7 Accuracy: 0.7800 Time: 1.6184
+loop:8 Accuracy: 0.7680 Time: 1.6244
+loop:9 Accuracy: 0.7680 Time: 1.6072
+average: 0.7672999999999999,...0.012037441588643338,... [[400], [0]]...1.610964054055512, ... 58.3 ... 0.7883 ... 0.768
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7860 Time: 5.9931
+loop:1 Accuracy: 0.7850 Time: 7.4862
+loop:2 Accuracy: 0.7380 Time: 7.6441
+loop:3 Accuracy: 0.7720 Time: 6.1497
+loop:4 Accuracy: 0.7620 Time: 7.2525
+loop:5 Accuracy: 0.7550 Time: 7.1895
+loop:6 Accuracy: 0.7630 Time: 7.5010
+loop:7 Accuracy: 0.7540 Time: 7.2771
+loop:8 Accuracy: 0.7110 Time: 6.4225
+loop:9 Accuracy: 0.7450 Time: 5.8122
+average: 0.7571000000000001,...0.022471957833906903,... [[400], [400]]...6.872784959711135, ... 102.5 ... 0.7807000000000002 ... 0.744
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7630 Time: 26.7809
+loop:1 Accuracy: 0.7940 Time: 22.9275
+loop:2 Accuracy: 0.7600 Time: 21.4211
+loop:3 Accuracy: 0.7670 Time: 22.0772
+loop:4 Accuracy: 0.7600 Time: 23.2462
+loop:5 Accuracy: 0.7870 Time: 21.0872
+loop:6 Accuracy: 0.7760 Time: 20.7222
+loop:7 Accuracy: 0.7650 Time: 20.7256
+loop:8 Accuracy: 0.7550 Time: 27.1763
+loop:9 Accuracy: 0.7680 Time: 21.6878
+average: 0.7695,...0.012518874638809293,... [[400], [100]]...22.785199666395783, ... 122.7 ... 0.7916000000000001 ... 0.765
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7170 Time: 14.6959
+loop:1 Accuracy: 0.7840 Time: 11.2289
+loop:2 Accuracy: 0.7210 Time: 13.0505
+loop:3 Accuracy: 0.7560 Time: 10.1437
+loop:4 Accuracy: 0.7860 Time: 12.2011
+loop:5 Accuracy: 0.7840 Time: 9.5279
+loop:6 Accuracy: 0.7350 Time: 11.9074
+loop:7 Accuracy: 0.7380 Time: 10.2051
+loop:8 Accuracy: 0.7710 Time: 11.7746
+loop:9 Accuracy: 0.7550 Time: 9.4941
+average: 0.7547,...0.02622149245688864,... [[400], [400, 400]]...11.422900767810642, ... 141.5 ... 0.7799 ... 0.755
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7840 Time: 24.9813
+loop:1 Accuracy: 0.7720 Time: 28.8688
+loop:2 Accuracy: 0.7810 Time: 24.5664
+loop:3 Accuracy: 0.7690 Time: 28.2339
+loop:4 Accuracy: 0.7700 Time: 29.4347
+loop:5 Accuracy: 0.7860 Time: 30.2389
+loop:6 Accuracy: 0.7740 Time: 24.9362
+loop:7 Accuracy: 0.7970 Time: 28.2588
+loop:8 Accuracy: 0.7660 Time: 27.1679
+loop:9 Accuracy: 0.7630 Time: 26.8662
+average: 0.7762,...0.010559882154224607,... [[400], [400, 100]]...27.35531707573682, ... 135.9 ... 0.7924 ... 0.763
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7820 Time: 29.7156
+loop:1 Accuracy: 0.7860 Time: 30.1947
+loop:2 Accuracy: 0.7670 Time: 26.9055
+loop:3 Accuracy: 0.7790 Time: 30.6426
+loop:4 Accuracy: 0.7730 Time: 30.3505
+loop:5 Accuracy: 0.7940 Time: 25.9145
+loop:6 Accuracy: 0.7510 Time: 27.6095
+loop:7 Accuracy: 0.7790 Time: 30.0822
+loop:8 Accuracy: 0.7620 Time: 28.1635
+loop:9 Accuracy: 0.7850 Time: 30.3470
+average: 0.7758,...0.012778454088382098,... [[400], [100, 400]]...28.992557168193162, ... 132.4 ... 0.7965 ... 0.789
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7740 Time: 34.8210
+loop:1 Accuracy: 0.7660 Time: 50.7523
+loop:2 Accuracy: 0.7940 Time: 39.0137
+loop:3 Accuracy: 0.7850 Time: 50.8955
+loop:4 Accuracy: 0.7910 Time: 40.1668
+loop:5 Accuracy: 0.7960 Time: 36.5057
+loop:6 Accuracy: 0.7850 Time: 51.8240
+loop:7 Accuracy: 0.7710 Time: 41.0739
+loop:8 Accuracy: 0.7990 Time: 49.5135
+loop:9 Accuracy: 0.7850 Time: 41.1950
+average: 0.7846000000000001,...0.01110755498648456,... [[400], [100, 100]]...43.57612133659423, ... 142.2 ... 0.8001000000000001 ... 0.787
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7630 Time: 1.6195
+loop:1 Accuracy: 0.7730 Time: 1.6238
+loop:2 Accuracy: 0.7780 Time: 1.6674
+loop:3 Accuracy: 0.7700 Time: 1.5921
+loop:4 Accuracy: 0.7630 Time: 1.6167
+loop:5 Accuracy: 0.7680 Time: 1.6394
+loop:6 Accuracy: 0.7560 Time: 1.5985
+loop:7 Accuracy: 0.7600 Time: 1.6149
+loop:8 Accuracy: 0.7580 Time: 1.6129
+loop:9 Accuracy: 0.7520 Time: 1.6054
+average: 0.7641,...0.00810281158336757,... [[100], [0]]...1.6190844040364027, ... 67.5 ... 0.7877000000000001 ... 0.752
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7770 Time: 7.1420
+loop:1 Accuracy: 0.7620 Time: 7.2033
+loop:2 Accuracy: 0.7530 Time: 8.3270
+loop:3 Accuracy: 0.6780 Time: 8.9726
+loop:4 Accuracy: 0.7710 Time: 8.3018
+loop:5 Accuracy: 0.6700 Time: 8.6173
+loop:6 Accuracy: 0.7320 Time: 7.7614
+loop:7 Accuracy: 0.7330 Time: 8.3964
+loop:8 Accuracy: 0.7730 Time: 6.2536
+loop:9 Accuracy: 0.7660 Time: 8.0632
+average: 0.7415,...0.03884799437122419,... [[100], [400]]...7.903860668279231, ... 137.5 ... 0.7759 ... 0.766
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7890 Time: 20.6201
+loop:1 Accuracy: 0.7700 Time: 25.5046
+loop:2 Accuracy: 0.7440 Time: 21.2889
+loop:3 Accuracy: 0.7750 Time: 19.9213
+loop:4 Accuracy: 0.7680 Time: 21.3250
+loop:5 Accuracy: 0.7690 Time: 19.6669
+loop:6 Accuracy: 0.7620 Time: 21.4355
+loop:7 Accuracy: 0.7660 Time: 21.1558
+loop:8 Accuracy: 0.7640 Time: 20.9691
+loop:9 Accuracy: 0.7750 Time: 20.7192
+average: 0.7682000000000001,...0.011429007928172176,... [[100], [100]]...21.26063605286181, ... 133.1 ... 0.7897 ... 0.776
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7700 Time: 13.1917
+loop:1 Accuracy: 0.7390 Time: 13.8712
+loop:2 Accuracy: 0.7730 Time: 14.4685
+loop:3 Accuracy: 0.7310 Time: 12.6383
+loop:4 Accuracy: 0.7410 Time: 12.7544
+loop:5 Accuracy: 0.7230 Time: 12.9054
+loop:6 Accuracy: 0.7370 Time: 14.5201
+loop:7 Accuracy: 0.7430 Time: 13.6620
+loop:8 Accuracy: 0.6540 Time: 14.9365
+loop:9 Accuracy: 0.7690 Time: 13.7141
+average: 0.7380000000000001,...0.034279893685819844,... [[100], [400, 400]]...13.666216957196593, ... 109.1 ... 0.7762 ... 0.768
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7670 Time: 26.8676
+loop:1 Accuracy: 0.7650 Time: 31.1482
+loop:2 Accuracy: 0.7870 Time: 29.1508
+loop:3 Accuracy: 0.7560 Time: 27.5816
+loop:4 Accuracy: 0.7510 Time: 28.5751
+loop:5 Accuracy: 0.7610 Time: 27.9897
+loop:6 Accuracy: 0.7480 Time: 28.4377
+loop:7 Accuracy: 0.7730 Time: 29.0662
+loop:8 Accuracy: 0.7740 Time: 31.8120
+loop:9 Accuracy: 0.7880 Time: 24.7583
+average: 0.767,...0.013759844960366875,... [[100], [400, 100]]...28.53870513420552, ... 131.0 ... 0.7931 ... 0.788
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7760 Time: 29.4371
+loop:1 Accuracy: 0.7660 Time: 25.1392
+loop:2 Accuracy: 0.7810 Time: 26.3765
+loop:3 Accuracy: 0.7690 Time: 26.5255
+loop:4 Accuracy: 0.7680 Time: 26.3453
+loop:5 Accuracy: 0.7640 Time: 30.8410
+loop:6 Accuracy: 0.7750 Time: 29.6352
+loop:7 Accuracy: 0.7670 Time: 28.2041
+loop:8 Accuracy: 0.7840 Time: 25.8170
+loop:9 Accuracy: 0.7470 Time: 26.9339
+average: 0.7697,...0.010392839415246985,... [[100], [100, 400]]...27.525483183935286, ... 135.7 ... 0.7893000000000001 ... 0.744
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7560 Time: 41.9150
+loop:1 Accuracy: 0.7740 Time: 38.2657
+loop:2 Accuracy: 0.7730 Time: 49.3222
+loop:3 Accuracy: 0.7910 Time: 37.5213
+loop:4 Accuracy: 0.7490 Time: 41.8139
+loop:5 Accuracy: 0.7860 Time: 40.9360
+loop:6 Accuracy: 0.7580 Time: 37.8804
+loop:7 Accuracy: 0.7530 Time: 37.7374
+loop:8 Accuracy: 0.7650 Time: 40.8260
+loop:9 Accuracy: 0.7560 Time: 36.1175
+average: 0.7661,...0.014379383389654337,... [[100], [100, 100]]...40.23353906553238, ... 134.5 ... 0.7903 ... 0.755
+----------.....................e.......................--------
+[['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[0], [0]], [[0], [0]], [[0], [0]], 0.005274677451960653, 1.033638413436711, 156.8, 0.8209, 0.807, 0.8074000000000001], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[0], [1.0]], [[0], [7]], [[0], [400]], 0.018470396735196463, 5.997508445009589, 90.5, 0.8009999999999999, 0.803, 0.7716000000000001], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[0], [3.86]], [[0], [27]], [[0], [100]], 0.010456789394668167, 25.675917163677514, 121.9, 0.8119, 0.793, 0.7833], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[0], [1.0, 1.0]], [[0], [7, 7]], [[0], [400, 400]], 0.012702143301208845, 10.414461009390653, 58.9, 0.8018000000000001, 0.776, 0.7727], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[0], [1.0, 3.86]], [[0], [7, 27]], [[0], [400, 100]], 0.013750151514316742, 29.878747181780636, 113.1, 0.8042000000000001, 0.795, 0.7802], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[0], [3.86, 1.0]], [[0], [27, 7]], [[0], [100, 400]], 0.014377451481786036, 29.916854869201778, 107.7, 0.8077, 0.791, 0.7824000000000002], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[0], [3.86, 3.86]], [[0], [27, 27]], [[0], [100, 100]], 0.010982814858779257, 49.95026867967099, 132.5, 0.8090999999999999, 0.76, 0.7848000000000002], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[1.0], [0]], [[7], [0]], [[400], [0]], 0.012037441588643338, 1.610964054055512, 58.3, 0.7883, 0.768, 0.7672999999999999], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[1.0], [1.0]], [[7], [7]], [[400], [400]], 0.022471957833906903, 6.872784959711135, 102.5, 0.7807000000000002, 0.744, 0.7571000000000001], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[1.0], [3.86]], [[7], [27]], [[400], [100]], 0.012518874638809293, 22.785199666395783, 122.7, 0.7916000000000001, 0.765, 0.7695], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[1.0], [1.0, 1.0]], [[7], [7, 7]], [[400], [400, 400]], 0.02622149245688864, 11.422900767810642, 141.5, 0.7799, 0.755, 0.7547], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[1.0], [1.0, 3.86]], [[7], [7, 27]], [[400], [400, 100]], 0.010559882154224607, 27.35531707573682, 135.9, 0.7924, 0.763, 0.7762], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[1.0], [3.86, 1.0]], [[7], [27, 7]], [[400], [100, 400]], 0.012778454088382098, 28.992557168193162, 132.4, 0.7965, 0.789, 0.7758], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[1.0], [3.86, 3.86]], [[7], [27, 27]], [[400], [100, 100]], 0.01110755498648456, 43.57612133659423, 142.2, 0.8001000000000001, 0.787, 0.7846000000000001], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[3.86], [0]], [[27], [0]], [[100], [0]], 0.00810281158336757, 1.6190844040364027, 67.5, 0.7877000000000001, 0.752, 0.7641], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[3.86], [1.0]], [[27], [7]], [[100], [400]], 0.03884799437122419, 7.903860668279231, 137.5, 0.7759, 0.766, 0.7415], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[3.86], [3.86]], [[27], [27]], [[100], [100]], 0.011429007928172176, 21.26063605286181, 133.1, 0.7897, 0.776, 0.7682000000000001], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[3.86], [1.0, 1.0]], [[27], [7, 7]], [[100], [400, 400]], 0.034279893685819844, 13.666216957196593, 109.1, 0.7762, 0.768, 0.7380000000000001], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[3.86], [1.0, 3.86]], [[27], [7, 27]], [[100], [400, 100]], 0.013759844960366875, 28.53870513420552, 131.0, 0.7931, 0.788, 0.767], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[3.86], [3.86, 1.0]], [[27], [27, 7]], [[100], [100, 400]], 0.010392839415246985, 27.525483183935286, 135.7, 0.7893000000000001, 0.744, 0.7697], ['logs_xzza_cat_13/br2_GCN_Cora_test13_iter10_clus-1_wait0_lr.01_lrdecay.001_7256590', 0.01, 0.001, 'NVIDIA GeForce RTX 2080 Ti', 10, -1, 0, 2, 'Cora', 'GCN', [32], [[3.86], [3.86, 3.86]], [[27], [27, 27]], [[100], [100, 100]], 0.014379383389654337, 40.23353906553238, 134.5, 0.7903, 0.755, 0.7661]]
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [0]]||k-number:[[0], [0]]||nodes/clusters:[[0], [0]]||stddev:0.005274677451960653||time:1.033638413436711||train peak:156.8||avg peak train acc:0.8209||end train acc:0.807||avg test acc:0.8074000000000001
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [1.0]]||k-number:[[0], [7]]||nodes/clusters:[[0], [400]]||stddev:0.018470396735196463||time:5.997508445009589||train peak:90.5||avg peak train acc:0.8009999999999999||end train acc:0.803||avg test acc:0.7716000000000001
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [3.86]]||k-number:[[0], [27]]||nodes/clusters:[[0], [100]]||stddev:0.010456789394668167||time:25.675917163677514||train peak:121.9||avg peak train acc:0.8119||end train acc:0.793||avg test acc:0.7833
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [1.0, 1.0]]||k-number:[[0], [7, 7]]||nodes/clusters:[[0], [400, 400]]||stddev:0.012702143301208845||time:10.414461009390653||train peak:58.9||avg peak train acc:0.8018000000000001||end train acc:0.776||avg test acc:0.7727
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [1.0, 3.86]]||k-number:[[0], [7, 27]]||nodes/clusters:[[0], [400, 100]]||stddev:0.013750151514316742||time:29.878747181780636||train peak:113.1||avg peak train acc:0.8042000000000001||end train acc:0.795||avg test acc:0.7802
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [3.86, 1.0]]||k-number:[[0], [27, 7]]||nodes/clusters:[[0], [100, 400]]||stddev:0.014377451481786036||time:29.916854869201778||train peak:107.7||avg peak train acc:0.8077||end train acc:0.791||avg test acc:0.7824000000000002
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [3.86, 3.86]]||k-number:[[0], [27, 27]]||nodes/clusters:[[0], [100, 100]]||stddev:0.010982814858779257||time:49.95026867967099||train peak:132.5||avg peak train acc:0.8090999999999999||end train acc:0.76||avg test acc:0.7848000000000002
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[1.0], [0]]||k-number:[[7], [0]]||nodes/clusters:[[400], [0]]||stddev:0.012037441588643338||time:1.610964054055512||train peak:58.3||avg peak train acc:0.7883||end train acc:0.768||avg test acc:0.7672999999999999
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[1.0], [1.0]]||k-number:[[7], [7]]||nodes/clusters:[[400], [400]]||stddev:0.022471957833906903||time:6.872784959711135||train peak:102.5||avg peak train acc:0.7807000000000002||end train acc:0.744||avg test acc:0.7571000000000001
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[1.0], [3.86]]||k-number:[[7], [27]]||nodes/clusters:[[400], [100]]||stddev:0.012518874638809293||time:22.785199666395783||train peak:122.7||avg peak train acc:0.7916000000000001||end train acc:0.765||avg test acc:0.7695
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[1.0], [1.0, 1.0]]||k-number:[[7], [7, 7]]||nodes/clusters:[[400], [400, 400]]||stddev:0.02622149245688864||time:11.422900767810642||train peak:141.5||avg peak train acc:0.7799||end train acc:0.755||avg test acc:0.7547
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[1.0], [1.0, 3.86]]||k-number:[[7], [7, 27]]||nodes/clusters:[[400], [400, 100]]||stddev:0.010559882154224607||time:27.35531707573682||train peak:135.9||avg peak train acc:0.7924||end train acc:0.763||avg test acc:0.7762
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[1.0], [3.86, 1.0]]||k-number:[[7], [27, 7]]||nodes/clusters:[[400], [100, 400]]||stddev:0.012778454088382098||time:28.992557168193162||train peak:132.4||avg peak train acc:0.7965||end train acc:0.789||avg test acc:0.7758
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[1.0], [3.86, 3.86]]||k-number:[[7], [27, 27]]||nodes/clusters:[[400], [100, 100]]||stddev:0.01110755498648456||time:43.57612133659423||train peak:142.2||avg peak train acc:0.8001000000000001||end train acc:0.787||avg test acc:0.7846000000000001
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[3.86], [0]]||k-number:[[27], [0]]||nodes/clusters:[[100], [0]]||stddev:0.00810281158336757||time:1.6190844040364027||train peak:67.5||avg peak train acc:0.7877000000000001||end train acc:0.752||avg test acc:0.7641
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[3.86], [1.0]]||k-number:[[27], [7]]||nodes/clusters:[[100], [400]]||stddev:0.03884799437122419||time:7.903860668279231||train peak:137.5||avg peak train acc:0.7759||end train acc:0.766||avg test acc:0.7415
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[3.86], [3.86]]||k-number:[[27], [27]]||nodes/clusters:[[100], [100]]||stddev:0.011429007928172176||time:21.26063605286181||train peak:133.1||avg peak train acc:0.7897||end train acc:0.776||avg test acc:0.7682000000000001
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[3.86], [1.0, 1.0]]||k-number:[[27], [7, 7]]||nodes/clusters:[[100], [400, 400]]||stddev:0.034279893685819844||time:13.666216957196593||train peak:109.1||avg peak train acc:0.7762||end train acc:0.768||avg test acc:0.7380000000000001
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[3.86], [1.0, 3.86]]||k-number:[[27], [7, 27]]||nodes/clusters:[[100], [400, 100]]||stddev:0.013759844960366875||time:28.53870513420552||train peak:131.0||avg peak train acc:0.7931||end train acc:0.788||avg test acc:0.767
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[3.86], [3.86, 1.0]]||k-number:[[27], [27, 7]]||nodes/clusters:[[100], [100, 400]]||stddev:0.010392839415246985||time:27.525483183935286||train peak:135.7||avg peak train acc:0.7893000000000001||end train acc:0.744||avg test acc:0.7697
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA GeForce RTX 2080 Ti||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:Cora||convType:GCN||layer_out_dim:[32]||k-proportional:[[3.86], [3.86, 3.86]]||k-number:[[27], [27, 27]]||nodes/clusters:[[100], [100, 100]]||stddev:0.014379383389654337||time:40.23353906553238||train peak:134.5||avg peak train acc:0.7903||end train acc:0.755||avg test acc:0.7661
+4366.218052811921
+ials-gpu022

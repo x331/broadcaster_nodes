@@ -1,0 +1,33 @@
+Warning: '/work/ssahibul_umass_edu/.conda/envs' already in 'envs_dirs' list, moving to the bottom
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.pubmed.x
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.pubmed.tx
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.pubmed.allx
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.pubmed.y
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.pubmed.ty
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.pubmed.ally
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.pubmed.graph
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.pubmed.test.index
+Processing...
+Done!
+Traceback (most recent call last):
+  File "testing2layer.py", line 34, in <module>
+    netTest2layer(argv) 
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/layer2Test.py", line 71, in netTest2layer
+    out = model(data)
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/broadcaster_nets_2_3.py", line 116, in forward
+    bc_features, bc_assigment = bc_data_pp_2(x,([round(data.x.shape[0]/x) for x in self.br_multiplies[layer_num]]), device,self.clustering, self.kmean[layer_num])
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/bc_data_pp_v2.py", line 10, in bc_data_pp_2
+    cluster_ids_x, artifical_features = kmean_set[bc_set].cluster(data,num_bc_nodes[bc_set])
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/kmeans_old.py", line 651, in cluster
+    self.idexTobc, self.artifical_features, counter = kmeansM(X=X, num_clusters=self.clustering, device=self.device,clustering=self.clusteringType, maxIters=self.kiters, centroids=self.artifical_features, res=self.res)
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/kmeans_old.py", line 26, in kmeansM
+    return kmeansOld(X=X,num_clusters=num_clusters,device=device,iter_limit=maxIters,cluster_centers=centroids,tol=tol)
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/kmeans_old.py", line 467, in kmeansOld
+    dis = pairwise_distance_function(X, initial_state)
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/kmeans_old.py", line 567, in pairwise_distance
+    dis = (A - B) ** 2.0
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/site-packages/torch/_tensor.py", line 32, in wrapped
+    return f(*args, **kwargs)
+RuntimeError: CUDA out of memory. Tried to allocate 3.71 GiB (GPU 0; 10.76 GiB total capacity; 7.56 GiB already allocated; 2.32 GiB free; 7.58 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

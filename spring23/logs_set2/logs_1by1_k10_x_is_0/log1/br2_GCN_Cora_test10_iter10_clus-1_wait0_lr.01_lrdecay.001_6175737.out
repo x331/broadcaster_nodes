@@ -1,0 +1,3 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs_1by1_k10_x_is_0/br2_GCN_Cora_test10_iter10_clus-1_wait0_lr.01_lrdecay.001_6175737; Cora; iter:10; net set:10; conv type:GCN, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.01, lr decay:0.001 
+ials-gpu029

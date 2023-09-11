@@ -1,0 +1,15 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs_mean_last4/br2_GraphSage_CiteSeer_test12_iter10_clus-1_wait0_lr.001_lrdecay.001_6799971; CiteSeer; iter:10; net set:12; conv type:GraphSage, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.001, lr decay:0.001 
+loop:0 Accuracy: 0.7010 Time: 2.4672
+loop:1 Accuracy: 0.6960 Time: 1.7128
+loop:2 Accuracy: 0.6920 Time: 1.7198
+loop:3 Accuracy: 0.6890 Time: 1.7154
+loop:4 Accuracy: 0.7070 Time: 1.7136
+loop:5 Accuracy: 0.6950 Time: 1.7169
+loop:6 Accuracy: 0.7010 Time: 1.7095
+loop:7 Accuracy: 0.6950 Time: 1.7101
+loop:8 Accuracy: 0.6940 Time: 1.7096
+loop:9 Accuracy: 0.6900 Time: 1.7181
+average: 0.696,...0.005557777333511028,... [[0], [0]]...1.7893030021339655, ... 171.0 ... 0.6987 ... 0.69
+----------.....................e.......................--------
+ials-gpu019

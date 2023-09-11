@@ -1,0 +1,15 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs_mean_last3/br2_GAT_Cora_test12_iter10_clus-1_wait0_lr.001_lrdecay.001_6799979; Cora; iter:10; net set:12; conv type:GAT, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.001, lr decay:0.001 
+loop:0 Accuracy: 0.7700 Time: 2.3211
+loop:1 Accuracy: 0.7250 Time: 1.5407
+loop:2 Accuracy: 0.7550 Time: 1.5389
+loop:3 Accuracy: 0.7500 Time: 1.5745
+loop:4 Accuracy: 0.7680 Time: 1.5401
+loop:5 Accuracy: 0.7220 Time: 1.5467
+loop:6 Accuracy: 0.7380 Time: 1.5452
+loop:7 Accuracy: 0.7680 Time: 1.5452
+loop:8 Accuracy: 0.7630 Time: 1.5462
+loop:9 Accuracy: 0.7450 Time: 1.5505
+average: 0.7504,...0.01769620172679878,... [[0], [0]]...1.6249028624966741, ... 66.8 ... 0.7851000000000001 ... 0.745
+----------.....................e.......................--------
+ials-gpu029

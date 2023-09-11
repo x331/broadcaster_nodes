@@ -1,0 +1,2 @@
+slurm id,learn_rate,learn_decay,gpu,iterations,clustering type,cluster wait,number of layers,dataset,conv type,hidden layer dims,k-proportional,k-number,nodes/cluster,10-stddev,avg time,10-avg peak train epoch,10-avg peak train acc,10-avg end train acc,10-avg test accuracy
+logs_mean_last3/br2_GAT_Cora_test12_iter10_clus-1_wait0_lr.001_lrdecay.001_6799979,0.001,0.001,NVIDIA GeForce RTX 2080 Ti,10,-1,0,2,Cora,GAT,[32],"[[0], [0]]","[[0], [0]]","[[0], [0]]",0.01769620172679878,1.6249028624966741,66.8,0.7851000000000001,0.745,0.7504

@@ -1,0 +1,1 @@
+/var/spool/slurm/slurmd/job6225727/slurm_script: line 46: 661425 Segmentation fault      python testing2layer.py ${9}br2_${4}_${1}_test${3}_iter${2}_clus${5}_wait${6}_lr${7}_lrdecay${8}_$SLURM_JOB_ID $1 $2 $3 $4 $5 $6 $7 $8

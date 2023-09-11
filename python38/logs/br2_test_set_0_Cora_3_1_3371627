@@ -1,0 +1,5 @@
+slurm id,gpu,iterations,clustering,number of layers,conv type,hidden layer dims,br multiplies,avg time,3-avg accuracy
+br2_test_set_0_Cora_3_1_3371627,NVIDIA GeForce RTX 2080 Ti,3,1,2,0,[8],"[[0], [0]]",1.8582303964843352,0.7706666666666667
+br2_test_set_0_Cora_3_1_3371627,NVIDIA GeForce RTX 2080 Ti,3,1,2,0,[8],"[[1], [1]]",108.60343504448731,0.791
+br2_test_set_0_Cora_3_1_3371627,NVIDIA GeForce RTX 2080 Ti,3,1,2,0,[8],"[[1], [2, 1]]",165.6188368164003,0.8003333333333332
+br2_test_set_0_Cora_3_1_3371627,NVIDIA GeForce RTX 2080 Ti,3,1,2,0,[8],"[[1], [2, 1, 3]]",233.01411134252945,0.7973333333333333

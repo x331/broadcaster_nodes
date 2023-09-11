@@ -1,0 +1,23 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs/br2_GCN_Cora_test10_iter10_clus-1_wait0_lr.01_lrdecay.001_6240001; Cora; iter:10; net set:10; conv type:GCN, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.01, lr decay:0.001 
+loop:0 Accuracy: 0.8020 Time: 7.2444
+loop:1 Accuracy: 0.8060 Time: 1.1364
+loop:2 Accuracy: 0.8110 Time: 1.1348
+loop:3 Accuracy: 0.8000 Time: 1.1352
+loop:4 Accuracy: 0.7970 Time: 1.1367
+loop:5 Accuracy: 0.8030 Time: 1.1361
+loop:6 Accuracy: 0.8120 Time: 1.1314
+loop:7 Accuracy: 0.8120 Time: 1.1405
+loop:8 Accuracy: 0.8070 Time: 1.1424
+loop:9 Accuracy: 0.8170 Time: 1.1400
+average: 0.8067,...0.00629020402424806,... [[0], [0]]...1.7477845132350922, ... 122.3 ... 0.8220000000000001 ... 0.817
+----------.....................e.......................--------
+loop:0 Accuracy: 0.8120 Time: 7.9525
+loop:1 Accuracy: 0.8040 Time: 8.2302
+loop:2 Accuracy: 0.8080 Time: 7.5469
+loop:3 Accuracy: 0.8080 Time: 8.1998
+loop:4 Accuracy: 0.8080 Time: 7.9505
+loop:5 Accuracy: 0.8030 Time: 8.4023
+loop:6 Accuracy: 0.8100 Time: 8.8539
+loop:7 Accuracy: 0.8140 Time: 8.1515
+loop:8 Accuracy: 0.8100 Time: 8.4915

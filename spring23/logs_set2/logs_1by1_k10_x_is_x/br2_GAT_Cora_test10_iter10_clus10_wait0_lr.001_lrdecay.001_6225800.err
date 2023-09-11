@@ -1,0 +1,18 @@
+Warning: '/work/ssahibul_umass_edu/.conda/envs' already in 'envs_dirs' list, moving to the bottom
+
+ConfigurationLoadError: Unable to load configuration file.
+  path: /home/ssahibul_umass_edu/.condarc
+  reason: invalid yaml at position 0
+
+Traceback (most recent call last):
+  File "testing2layer.py", line 3, in <module>
+    from layer2Test import netTest2layer
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/layer2Test.py", line 1, in <module>
+    from broadcaster_nets_2_3 import *
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/broadcaster_nets_2_3.py", line 1, in <module>
+    from bc_data_pp_v2 import *
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/bc_data_pp_v2.py", line 1, in <module>
+    from kmeans_old import *
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/kmeans_old.py", line 3, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

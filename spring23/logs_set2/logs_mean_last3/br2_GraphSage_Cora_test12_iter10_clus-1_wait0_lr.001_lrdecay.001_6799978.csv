@@ -1,0 +1,2 @@
+slurm id,learn_rate,learn_decay,gpu,iterations,clustering type,cluster wait,number of layers,dataset,conv type,hidden layer dims,k-proportional,k-number,nodes/cluster,10-stddev,avg time,10-avg peak train epoch,10-avg peak train acc,10-avg end train acc,10-avg test accuracy
+logs_mean_last3/br2_GraphSage_Cora_test12_iter10_clus-1_wait0_lr.001_lrdecay.001_6799978,0.001,0.001,NVIDIA A100-SXM4-80GB,10,-1,0,2,Cora,GraphSage,[128],"[[0], [0]]","[[0], [0]]","[[0], [0]]",0.003414023367751834,1.131210230756551,152.7,0.8081000000000002,0.799,0.8049

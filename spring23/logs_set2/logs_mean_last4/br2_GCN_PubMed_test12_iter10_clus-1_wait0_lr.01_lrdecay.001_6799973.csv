@@ -1,0 +1,2 @@
+slurm id,learn_rate,learn_decay,gpu,iterations,clustering type,cluster wait,number of layers,dataset,conv type,hidden layer dims,k-proportional,k-number,nodes/cluster,10-stddev,avg time,10-avg peak train epoch,10-avg peak train acc,10-avg end train acc,10-avg test accuracy
+logs_mean_last4/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_6799973,0.01,0.001,NVIDIA GeForce RTX 2080 Ti,10,-1,0,2,PubMed,GCN,[32],"[[0], [0]]","[[0], [0]]","[[0], [0]]",0.0023944379994757315,1.2324671649374068,86.9,0.7978,0.79,0.7862000000000001

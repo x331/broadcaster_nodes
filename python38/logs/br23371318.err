@@ -1,0 +1,344 @@
+++ /modules/apps/miniconda/4.8.3/bin/conda shell.bash hook
++ __conda_setup='export CONDA_EXE='\''/modules/apps/miniconda/4.8.3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/modules/apps/miniconda/4.8.3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi'
++ '[' 0 -eq 0 ']'
++ eval 'export CONDA_EXE='\''/modules/apps/miniconda/4.8.3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/modules/apps/miniconda/4.8.3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi'
+++ export CONDA_EXE=/modules/apps/miniconda/4.8.3/bin/conda
+++ CONDA_EXE=/modules/apps/miniconda/4.8.3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/modules/apps/miniconda/4.8.3/bin/python
+++ CONDA_PYTHON_EXE=/modules/apps/miniconda/4.8.3/bin/python
+++ '[' -z x ']'
++ unset __conda_setup
++ conda init bash
++ local cmd=init
++ case "$cmd" in
++ __conda_exe init bash
++ __add_sys_prefix_to_path
++ '[' -n '' ']'
+++ dirname /modules/apps/miniconda/4.8.3/bin/conda
++ SYSP=/modules/apps/miniconda/4.8.3/bin
+++ dirname /modules/apps/miniconda/4.8.3/bin
++ SYSP=/modules/apps/miniconda/4.8.3
++ '[' -n '' ']'
++ PATH=/modules/apps/miniconda/4.8.3/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
++ export PATH
++ /modules/apps/miniconda/4.8.3/bin/conda init bash
++ conda info --envs
++ local cmd=info
++ case "$cmd" in
++ __conda_exe info --envs
++ __add_sys_prefix_to_path
++ '[' -n '' ']'
+++ dirname /modules/apps/miniconda/4.8.3/bin/conda
++ SYSP=/modules/apps/miniconda/4.8.3/bin
+++ dirname /modules/apps/miniconda/4.8.3/bin
++ SYSP=/modules/apps/miniconda/4.8.3
++ '[' -n '' ']'
++ PATH=/modules/apps/miniconda/4.8.3/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
++ export PATH
++ /modules/apps/miniconda/4.8.3/bin/conda info --envs
++ conda config --append envs_dirs /work/ssahibul_umass_edu/.conda/envs
++ local cmd=config
++ case "$cmd" in
++ __conda_exe config --append envs_dirs /work/ssahibul_umass_edu/.conda/envs
++ __add_sys_prefix_to_path
++ '[' -n '' ']'
+++ dirname /modules/apps/miniconda/4.8.3/bin/conda
++ SYSP=/modules/apps/miniconda/4.8.3/bin
+++ dirname /modules/apps/miniconda/4.8.3/bin
++ SYSP=/modules/apps/miniconda/4.8.3
++ '[' -n '' ']'
++ PATH=/modules/apps/miniconda/4.8.3/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
++ export PATH
++ /modules/apps/miniconda/4.8.3/bin/conda config --append envs_dirs /work/ssahibul_umass_edu/.conda/envs
+Warning: '/work/ssahibul_umass_edu/.conda/envs' already in 'envs_dirs' list, moving to the bottom
++ conda info --envs
++ local cmd=info
++ case "$cmd" in
++ __conda_exe info --envs
++ __add_sys_prefix_to_path
++ '[' -n '' ']'
+++ dirname /modules/apps/miniconda/4.8.3/bin/conda
++ SYSP=/modules/apps/miniconda/4.8.3/bin
+++ dirname /modules/apps/miniconda/4.8.3/bin
++ SYSP=/modules/apps/miniconda/4.8.3
++ '[' -n '' ']'
++ PATH=/modules/apps/miniconda/4.8.3/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
++ export PATH
++ /modules/apps/miniconda/4.8.3/bin/conda info --envs
++ conda activate broadcaster38
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate broadcaster38
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate broadcaster38
+++ __add_sys_prefix_to_path
+++ '[' -n '' ']'
++++ dirname /modules/apps/miniconda/4.8.3/bin/conda
+++ SYSP=/modules/apps/miniconda/4.8.3/bin
++++ dirname /modules/apps/miniconda/4.8.3/bin
+++ SYSP=/modules/apps/miniconda/4.8.3
+++ '[' -n '' ']'
+++ PATH=/modules/apps/miniconda/4.8.3/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+++ export PATH
+++ /modules/apps/miniconda/4.8.3/bin/conda shell.posix activate broadcaster38
++ ask_conda='PS1='\''(broadcaster38) '\''
+export PATH='\''/work/ssahibul_umass_edu/.conda/envs/broadcaster38/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'\''
+export CONDA_PREFIX='\''/work/ssahibul_umass_edu/.conda/envs/broadcaster38'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''broadcaster38'\''
+export CONDA_PROMPT_MODIFIER='\''(broadcaster38) '\''
+export CONDA_EXE='\''/modules/apps/miniconda/4.8.3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/modules/apps/miniconda/4.8.3/bin/python'\'''
++ eval 'PS1='\''(broadcaster38) '\''
+export PATH='\''/work/ssahibul_umass_edu/.conda/envs/broadcaster38/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'\''
+export CONDA_PREFIX='\''/work/ssahibul_umass_edu/.conda/envs/broadcaster38'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''broadcaster38'\''
+export CONDA_PROMPT_MODIFIER='\''(broadcaster38) '\''
+export CONDA_EXE='\''/modules/apps/miniconda/4.8.3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/modules/apps/miniconda/4.8.3/bin/python'\'''
+++ PS1='(broadcaster38) '
+++ export PATH=/work/ssahibul_umass_edu/.conda/envs/broadcaster38/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+++ PATH=/work/ssahibul_umass_edu/.conda/envs/broadcaster38/bin:/home/ssahibul_umass_edu/.local/bin:/modules/apps/miniconda/4.8.3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+++ export CONDA_PREFIX=/work/ssahibul_umass_edu/.conda/envs/broadcaster38
+++ CONDA_PREFIX=/work/ssahibul_umass_edu/.conda/envs/broadcaster38
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=broadcaster38
+++ CONDA_DEFAULT_ENV=broadcaster38
+++ export 'CONDA_PROMPT_MODIFIER=(broadcaster38) '
+++ CONDA_PROMPT_MODIFIER='(broadcaster38) '
+++ export CONDA_EXE=/modules/apps/miniconda/4.8.3/bin/conda
+++ CONDA_EXE=/modules/apps/miniconda/4.8.3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/modules/apps/miniconda/4.8.3/bin/python
+++ CONDA_PYTHON_EXE=/modules/apps/miniconda/4.8.3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ sleep 1
++ python testing2layer.py br2_3371318 Cora 3 0 0
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.x
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.tx
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.allx
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.y
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.ty
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.ally
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.graph
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.test.index
+Processing...
+Done!
++ sleep 1
++ exit

@@ -1,0 +1,26 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs/br2_GraphSage_Cora_test10_iter10_clus-1_wait0_lr.001_lrdecay.001_6240002; Cora; iter:10; net set:10; conv type:GraphSage, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.001, lr decay:0.001 
+loop:0 Accuracy: 0.8090 Time: 2.9321
+loop:1 Accuracy: 0.8020 Time: 1.1945
+loop:2 Accuracy: 0.8050 Time: 1.1736
+loop:3 Accuracy: 0.8090 Time: 1.1800
+loop:4 Accuracy: 0.8070 Time: 1.1821
+loop:5 Accuracy: 0.7990 Time: 1.1641
+loop:6 Accuracy: 0.8000 Time: 1.1752
+loop:7 Accuracy: 0.8040 Time: 1.1960
+loop:8 Accuracy: 0.8120 Time: 1.1740
+loop:9 Accuracy: 0.8000 Time: 1.1794
+average: 0.8047000000000002,...0.004473378042498884,... [[0], [0]]...1.3551062335260213, ... 174.6 ... 0.8063 ... 0.8
+----------.....................e.......................--------
+loop:0 Accuracy: 0.8080 Time: 8.5203
+loop:1 Accuracy: 0.8090 Time: 7.5149
+loop:2 Accuracy: 0.8120 Time: 8.1936
+loop:3 Accuracy: 0.8080 Time: 8.1388
+loop:4 Accuracy: 0.8080 Time: 7.6959
+loop:5 Accuracy: 0.8060 Time: 7.8168
+loop:6 Accuracy: 0.8030 Time: 7.6013
+loop:7 Accuracy: 0.8060 Time: 7.7356
+loop:8 Accuracy: 0.8060 Time: 7.7554
+loop:9 Accuracy: 0.8110 Time: 7.6784
+average: 0.8077,...0.002626785107312742,... [[0], [400]]...7.865098591800779, ... 151.7 ... 0.8100000000000002 ... 0.811
+----------.....................e.......................--------

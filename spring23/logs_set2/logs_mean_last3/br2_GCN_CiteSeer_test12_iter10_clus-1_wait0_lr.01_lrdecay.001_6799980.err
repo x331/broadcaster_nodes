@@ -1,0 +1,17 @@
+Warning: '/work/ssahibul_umass_edu/.conda/envs' already in 'envs_dirs' list, moving to the bottom
+Traceback (most recent call last):
+  File "testing2layer.py", line 34, in <module>
+    netTest2layer(argv) 
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/layer2Test.py", line 71, in netTest2layer
+    out = model(data)
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/broadcaster_nets_2_3.py", line 123, in forward
+    x = self.layers[layer_num].forward(x,edge_index,bc_features,bc_assigment)
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/BCMPLayer.py", line 108, in forward
+    return self.squeze( self.fuse_cat(Xprime,Zprime,Zalpha) ) #try concatation vs mean   # try just xprime and zprime then add back zalpha
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/work/ssahibul_umass_edu/.conda/envs/bc38/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (19962x3 and 18x6)

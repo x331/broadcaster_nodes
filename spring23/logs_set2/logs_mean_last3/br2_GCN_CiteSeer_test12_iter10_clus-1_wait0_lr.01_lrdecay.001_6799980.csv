@@ -1,0 +1,2 @@
+slurm id,learn_rate,learn_decay,gpu,iterations,clustering type,cluster wait,number of layers,dataset,conv type,hidden layer dims,k-proportional,k-number,nodes/cluster,10-stddev,avg time,10-avg peak train epoch,10-avg peak train acc,10-avg end train acc,10-avg test accuracy
+logs_mean_last3/br2_GCN_CiteSeer_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_6799980,0.01,0.001,NVIDIA GeForce RTX 2080 Ti,10,-1,0,2,CiteSeer,GCN,[32],"[[0], [0]]","[[0], [0]]","[[0], [0]]",0.012702143301208817,1.2023872744292021,114.4,0.6984999999999999,0.685,0.6797000000000001

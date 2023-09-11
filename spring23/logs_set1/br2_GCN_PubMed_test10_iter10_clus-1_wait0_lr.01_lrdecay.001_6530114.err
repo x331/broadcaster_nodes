@@ -1,0 +1,2 @@
+Warning: '/work/ssahibul_umass_edu/.conda/envs' already in 'envs_dirs' list, moving to the bottom
+slurmstepd-ials-gpu006: error: *** JOB 6530114 ON ials-gpu006 CANCELLED AT 2023-04-05T00:07:55 DUE TO TIME LIMIT ***

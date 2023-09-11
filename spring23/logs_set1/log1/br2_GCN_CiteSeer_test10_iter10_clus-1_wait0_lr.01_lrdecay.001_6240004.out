@@ -1,0 +1,23 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs/br2_GCN_CiteSeer_test10_iter10_clus-1_wait0_lr.01_lrdecay.001_6240004; CiteSeer; iter:10; net set:10; conv type:GCN, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.01, lr decay:0.001 
+loop:0 Accuracy: 0.6820 Time: 2.7330
+loop:1 Accuracy: 0.6890 Time: 1.2796
+loop:2 Accuracy: 0.6830 Time: 1.2582
+loop:3 Accuracy: 0.6870 Time: 1.2797
+loop:4 Accuracy: 0.6820 Time: 1.2604
+loop:5 Accuracy: 0.6900 Time: 1.2478
+loop:6 Accuracy: 0.6840 Time: 1.2627
+loop:7 Accuracy: 0.6870 Time: 1.2881
+loop:8 Accuracy: 0.6870 Time: 1.2792
+loop:9 Accuracy: 0.6860 Time: 1.2571
+average: 0.6857000000000001,...0.0028303906287138066,... [[0], [0]]...1.4145639525726437, ... 115.2 ... 0.6982999999999999 ... 0.686
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6950 Time: 9.7801
+loop:1 Accuracy: 0.6850 Time: 9.2573
+loop:2 Accuracy: 0.6910 Time: 10.4521
+loop:3 Accuracy: 0.6920 Time: 10.0749
+loop:4 Accuracy: 0.6900 Time: 9.9563
+loop:5 Accuracy: 0.6910 Time: 10.4996
+loop:6 Accuracy: 0.6880 Time: 9.7367
+loop:7 Accuracy: 0.6760 Time: 10.0294
+loop:8 Accuracy: 0.6840 Time: 10.3543

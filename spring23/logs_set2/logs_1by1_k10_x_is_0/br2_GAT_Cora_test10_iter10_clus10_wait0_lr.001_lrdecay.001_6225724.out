@@ -1,0 +1,64 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs_1by1_k10_x_is_0/br2_GAT_Cora_test10_iter10_clus10_wait0_lr.001_lrdecay.001_6225724; Cora; iter:10; net set:10; conv type:GAT, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:10, cluster wait:0, lr:0.001, lr decay:0.001 
+loop:0 Accuracy: 0.7470 Time: 2.2719
+loop:1 Accuracy: 0.7550 Time: 1.4620
+loop:2 Accuracy: 0.7460 Time: 1.5444
+loop:3 Accuracy: 0.7960 Time: 1.5289
+loop:4 Accuracy: 0.7450 Time: 1.4899
+loop:5 Accuracy: 0.7660 Time: 1.3625
+loop:6 Accuracy: 0.7070 Time: 1.4187
+loop:7 Accuracy: 0.7660 Time: 1.4145
+loop:8 Accuracy: 0.7600 Time: 1.3531
+loop:9 Accuracy: 0.7560 Time: 1.5139
+average: 0.7544000000000001,...0.022346762131856567,... [[0], [0]]...1.535970102995634, ... 69.4 ... 0.7753 ... 0.756
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7300 Time: 5.1110
+loop:1 Accuracy: 0.7360 Time: 5.0213
+loop:2 Accuracy: 0.7220 Time: 5.0774
+loop:3 Accuracy: 0.6410 Time: 4.8928
+loop:4 Accuracy: 0.7800 Time: 5.1288
+loop:5 Accuracy: 0.7460 Time: 5.1637
+loop:6 Accuracy: 0.7430 Time: 5.0484
+loop:7 Accuracy: 0.6990 Time: 5.1894
+loop:8 Accuracy: 0.7100 Time: 5.3293
+loop:9 Accuracy: 0.7060 Time: 4.9076
+average: 0.7213,...0.036706190819049106,... [[0], [400]]...5.086971954349428, ... 58.4 ... 0.7732 ... 0.706
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6180 Time: 6.7133
+loop:1 Accuracy: 0.6650 Time: 6.3771
+loop:2 Accuracy: 0.7250 Time: 6.7372
+loop:3 Accuracy: 0.7270 Time: 6.5534
+loop:4 Accuracy: 0.7120 Time: 6.7891
+loop:5 Accuracy: 0.7490 Time: 6.7682
+loop:6 Accuracy: 0.6890 Time: 6.4159
+loop:7 Accuracy: 0.7330 Time: 6.9629
+loop:8 Accuracy: 0.7310 Time: 6.4558
+loop:9 Accuracy: 0.7340 Time: 7.2761
+average: 0.7082999999999999,...0.040119405113569,... [[0], [200]]...6.70489871557802, ... 73.4 ... 0.7557 ... 0.734
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7250 Time: 9.9117
+loop:1 Accuracy: 0.7290 Time: 10.2301
+loop:2 Accuracy: 0.6800 Time: 9.6928
+loop:3 Accuracy: 0.7340 Time: 10.5700
+loop:4 Accuracy: 0.7340 Time: 10.4874
+loop:5 Accuracy: 0.7520 Time: 10.1983
+loop:6 Accuracy: 0.6910 Time: 9.8602
+loop:7 Accuracy: 0.7580 Time: 9.9231
+loop:8 Accuracy: 0.7090 Time: 9.7844
+loop:9 Accuracy: 0.6870 Time: 9.6343
+average: 0.7199,...0.0271147766192368,... [[0], [100]]...10.02923034215346, ... 70.6 ... 0.7731000000000001 ... 0.687
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6880 Time: 14.7999
+loop:1 Accuracy: 0.7330 Time: 15.1334
+loop:2 Accuracy: 0.7230 Time: 15.3172
+loop:3 Accuracy: 0.7380 Time: 14.3033
+loop:4 Accuracy: 0.7510 Time: 15.3136
+loop:5 Accuracy: 0.6870 Time: 15.0373
+loop:6 Accuracy: 0.7250 Time: 14.8810
+loop:7 Accuracy: 0.7050 Time: 15.2264
+loop:8 Accuracy: 0.6640 Time: 15.8995
+loop:9 Accuracy: 0.6750 Time: 14.9707
+average: 0.7088999999999999,...0.029353970013535725,... [[0], [50]]...15.088226728141308, ... 59.6 ... 0.7622000000000002 ... 0.675
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7480 Time: 24.5943
+ials-gpu003

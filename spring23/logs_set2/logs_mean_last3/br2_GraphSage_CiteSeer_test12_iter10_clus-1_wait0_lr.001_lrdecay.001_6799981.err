@@ -1,0 +1,12 @@
+Warning: '/work/ssahibul_umass_edu/.conda/envs' already in 'envs_dirs' list, moving to the bottom
+Traceback (most recent call last):
+  File "testing2layer.py", line 3, in <module>
+    from layer2Test import netTest2layer
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/layer2Test.py", line 1, in <module>
+    from broadcaster_nets_2_3 import *
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/broadcaster_nets_2_3.py", line 3, in <module>
+    from BCMPLayer import *
+  File "/work/ssahibul_umass_edu/broadcaster_nodes/spring23/BCMPLayer.py", line 85
+    self.squeze = torch.nn.Linear(3*dimWX[],dimWX[1],bias=False)
+                                          ^
+SyntaxError: invalid syntax

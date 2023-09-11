@@ -1,0 +1,26 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs/br2_GAT_Cora_test10_iter10_clus-1_wait0_lr.001_lrdecay.001_6240003; Cora; iter:10; net set:10; conv type:GAT, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.001, lr decay:0.001 
+loop:0 Accuracy: 0.7480 Time: 3.0182
+loop:1 Accuracy: 0.7380 Time: 1.3599
+loop:2 Accuracy: 0.7590 Time: 1.3498
+loop:3 Accuracy: 0.7570 Time: 1.4034
+loop:4 Accuracy: 0.7600 Time: 1.3254
+loop:5 Accuracy: 0.7420 Time: 1.3419
+loop:6 Accuracy: 0.7500 Time: 1.3882
+loop:7 Accuracy: 0.7440 Time: 1.3493
+loop:8 Accuracy: 0.7490 Time: 1.3490
+loop:9 Accuracy: 0.7420 Time: 1.3512
+average: 0.7489,...0.007680422442085395,... [[0], [0]]...1.5236383449286222, ... 48.0 ... 0.7827000000000001 ... 0.742
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6710 Time: 8.2815
+loop:1 Accuracy: 0.7130 Time: 8.0675
+loop:2 Accuracy: 0.6900 Time: 8.5216
+loop:3 Accuracy: 0.6750 Time: 7.8244
+loop:4 Accuracy: 0.7220 Time: 8.1738
+loop:5 Accuracy: 0.5980 Time: 7.9211
+loop:6 Accuracy: 0.7430 Time: 8.2942
+loop:7 Accuracy: 0.7280 Time: 8.5831
+loop:8 Accuracy: 0.7080 Time: 7.9435
+loop:9 Accuracy: 0.7050 Time: 8.6070
+average: 0.6953,...0.04099335989590942,... [[0], [400]]...8.221761139295996, ... 61.7 ... 0.7621999999999999 ... 0.705
+----------.....................e.......................--------

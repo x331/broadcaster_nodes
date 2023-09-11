@@ -1,0 +1,1 @@
+slurm id,learn_rate,learn_decay,gpu,iterations,clustering type,cluster wait,number of layers,dataset,conv type,hidden layer dims,k-proportional,k-number,nodes/cluster,1-stddev,avg time,1-avg peak train epoch,1-avg peak train acc,1-avg end train acc,1-avg test accuracy

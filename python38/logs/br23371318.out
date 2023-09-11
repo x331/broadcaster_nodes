@@ -1,0 +1,51 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/python38
+no change     /modules/apps/miniconda/4.8.3/condabin/conda
+no change     /modules/apps/miniconda/4.8.3/bin/conda
+no change     /modules/apps/miniconda/4.8.3/bin/conda-env
+no change     /modules/apps/miniconda/4.8.3/bin/activate
+no change     /modules/apps/miniconda/4.8.3/bin/deactivate
+no change     /modules/apps/miniconda/4.8.3/etc/profile.d/conda.sh
+no change     /modules/apps/miniconda/4.8.3/etc/fish/conf.d/conda.fish
+no change     /modules/apps/miniconda/4.8.3/shell/condabin/Conda.psm1
+no change     /modules/apps/miniconda/4.8.3/shell/condabin/conda-hook.ps1
+no change     /modules/apps/miniconda/4.8.3/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /modules/apps/miniconda/4.8.3/etc/profile.d/conda.csh
+no change     /home/ssahibul_umass_edu/.bashrc
+No action taken.
+# conda environments:
+#
+base                  *  /modules/apps/miniconda/4.8.3
+jupyterhub-stable        /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable
+broadcaster              /work/ssahibul_umass_edu/.conda/envs/broadcaster
+broadcaster38            /work/ssahibul_umass_edu/.conda/envs/broadcaster38
+
+# conda environments:
+#
+base                  *  /modules/apps/miniconda/4.8.3
+jupyterhub-stable        /modules/apps/miniconda/4.8.3/envs/jupyterhub-stable
+broadcaster              /work/ssahibul_umass_edu/.conda/envs/broadcaster
+broadcaster38            /work/ssahibul_umass_edu/.conda/envs/broadcaster38
+
+br2_3371318; Cora; inter:3; net set:0; conv type:0
+loop:0 Accuracy: 0.7940 Time: 3.9587
+loop:1 Accuracy: 0.7850 Time: 0.5679
+loop:2 Accuracy: 0.7930 Time: 0.5675
+average: 0.7906666666666667,....1.6980440641442935
+loop:0 Accuracy: 0.7950 Time: 98.2015
+loop:1 Accuracy: 0.7860 Time: 98.0860
+loop:2 Accuracy: 0.7870 Time: 98.1232
+average: 0.7893333333333333,....98.13690262163679
+loop:0 Accuracy: 0.7890 Time: 138.0033
+loop:1 Accuracy: 0.8090 Time: 138.0339
+loop:2 Accuracy: 0.7830 Time: 138.0593
+average: 0.7936666666666667,....138.032152020062
+loop:0 Accuracy: 0.7880 Time: 177.9462
+loop:1 Accuracy: 0.8080 Time: 178.1031
+loop:2 Accuracy: 0.7950 Time: 178.1024
+average: 0.797,....178.05057794973254
+[['br2_3371318', 3, 2, 0, [8], [[0], [0]], 1.6980440641442935, 0.7906666666666667], ['br2_3371318', 3, 2, 0, [8], [[1], [1]], 98.13690262163679, 0.7893333333333333], ['br2_3371318', 3, 2, 0, [8], [[1], [2, 1]], 138.032152020062, 0.7936666666666667], ['br2_3371318', 3, 2, 0, [8], [[1], [2, 1, 3]], 178.05057794973254, 0.797]]
+layers:2||convType:0||layer_out_dim:[8]||br_multiplies:[[0], [0]]||time:1.6980440641442935||average:0.7906666666666667
+layers:2||convType:0||layer_out_dim:[8]||br_multiplies:[[1], [1]]||time:98.13690262163679||average:0.7893333333333333
+layers:2||convType:0||layer_out_dim:[8]||br_multiplies:[[1], [2, 1]]||time:138.032152020062||average:0.7936666666666667
+layers:2||convType:0||layer_out_dim:[8]||br_multiplies:[[1], [2, 1, 3]]||time:178.05057794973254||average:0.797
+1263.2492598369718

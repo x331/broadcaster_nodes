@@ -1,0 +1,359 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs_selfloop_bl4/br2_GraphSage_PubMed_test10_iter10_clus-1_wait0_lr.001_lrdecay.001_6583177; PubMed; iter:10; net set:10; conv type:GraphSage, gpu:NVIDIA GeForce RTX 2080 Ti, cluster:-1, cluster wait:0, lr:0.001, lr decay:0.001 
+loop:0 Accuracy: 0.7720 Time: 2.3912
+loop:1 Accuracy: 0.7730 Time: 1.6880
+loop:2 Accuracy: 0.7730 Time: 1.6664
+loop:3 Accuracy: 0.7650 Time: 1.6614
+loop:4 Accuracy: 0.7770 Time: 1.6539
+loop:5 Accuracy: 0.7720 Time: 1.7293
+loop:6 Accuracy: 0.7700 Time: 1.6558
+loop:7 Accuracy: 0.7740 Time: 1.6601
+loop:8 Accuracy: 0.7720 Time: 1.6640
+loop:9 Accuracy: 0.7710 Time: 1.6612
+average: 0.7719000000000001,...0.003071373199943854,... [[0], [0]]...1.7431140724569558, ... 170.6 ... 0.7731 ... 0.771
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6460 Time: 42.4879
+loop:1 Accuracy: 0.6440 Time: 44.7681
+loop:2 Accuracy: 0.6610 Time: 42.6196
+loop:3 Accuracy: 0.6630 Time: 42.6637
+loop:4 Accuracy: 0.6170 Time: 47.7325
+loop:5 Accuracy: 0.6730 Time: 43.3994
+loop:6 Accuracy: 0.7040 Time: 42.1134
+loop:7 Accuracy: 0.6480 Time: 44.9209
+loop:8 Accuracy: 0.6550 Time: 43.7570
+loop:9 Accuracy: 0.6340 Time: 43.9115
+average: 0.6545,...0.023472205785661563,... [[0], [400]]...43.83741222107783, ... 139.4 ... 0.6746 ... 0.634
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7650 Time: 105.7862
+loop:1 Accuracy: 0.7560 Time: 108.1169
+loop:2 Accuracy: 0.7230 Time: 114.9659
+loop:3 Accuracy: 0.7310 Time: 106.7679
+loop:4 Accuracy: 0.7640 Time: 111.3078
+loop:5 Accuracy: 0.7490 Time: 104.2893
+loop:6 Accuracy: 0.7650 Time: 107.3645
+loop:7 Accuracy: 0.7580 Time: 102.8968
+loop:8 Accuracy: 0.7740 Time: 106.3576
+loop:9 Accuracy: 0.7610 Time: 105.0448
+average: 0.7545999999999999,...0.016063761839757364,... [[0], [200]]...107.28977874983102, ... 166.5 ... 0.7585000000000001 ... 0.761
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7340 Time: 220.7262
+loop:1 Accuracy: 0.7530 Time: 217.2675
+loop:2 Accuracy: 0.7760 Time: 228.6153
+loop:3 Accuracy: 0.7780 Time: 225.2248
+loop:4 Accuracy: 0.7670 Time: 215.8546
+loop:5 Accuracy: 0.7630 Time: 227.6384
+loop:6 Accuracy: 0.7510 Time: 218.9156
+loop:7 Accuracy: 0.7510 Time: 230.5161
+loop:8 Accuracy: 0.7310 Time: 229.9092
+loop:9 Accuracy: 0.7680 Time: 222.1704
+average: 0.7572,...0.016164432835360766,... [[0], [100]]...223.683814976085, ... 176.9 ... 0.7603 ... 0.768
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7630 Time: 436.5581
+loop:1 Accuracy: 0.6690 Time: 433.7069
+loop:2 Accuracy: 0.7300 Time: 428.4649
+loop:3 Accuracy: 0.7530 Time: 429.5888
+loop:4 Accuracy: 0.7730 Time: 421.9584
+loop:5 Accuracy: 0.7750 Time: 449.0155
+loop:6 Accuracy: 0.7500 Time: 434.7537
+loop:7 Accuracy: 0.7630 Time: 427.9028
+loop:8 Accuracy: 0.7570 Time: 448.9743
+loop:9 Accuracy: 0.7350 Time: 435.1421
+average: 0.7468,...0.03097238913756717,... [[0], [50]]...434.60654760012403, ... 152.5 ... 0.7554000000000001 ... 0.735
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7530 Time: 736.5782
+loop:1 Accuracy: 0.7590 Time: 744.5743
+loop:2 Accuracy: 0.7260 Time: 738.3142
+loop:3 Accuracy: 0.7720 Time: 750.2465
+loop:4 Accuracy: 0.6810 Time: 760.2647
+loop:5 Accuracy: 0.7310 Time: 724.5275
+loop:6 Accuracy: 0.7710 Time: 746.3681
+loop:7 Accuracy: 0.7520 Time: 761.4473
+loop:8 Accuracy: 0.7660 Time: 750.5571
+loop:9 Accuracy: 0.7360 Time: 737.9166
+average: 0.7446999999999999,...0.02766485937872167,... [[0], [25]]...745.0794569449033, ... 150.6 ... 0.756 ... 0.736
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7650 Time: 5.3881
+loop:1 Accuracy: 0.7790 Time: 5.1556
+loop:2 Accuracy: 0.7680 Time: 5.1818
+loop:3 Accuracy: 0.7770 Time: 5.2495
+loop:4 Accuracy: 0.7680 Time: 5.2496
+loop:5 Accuracy: 0.7800 Time: 5.1814
+loop:6 Accuracy: 0.7790 Time: 5.2064
+loop:7 Accuracy: 0.7790 Time: 5.1668
+loop:8 Accuracy: 0.7760 Time: 5.2250
+loop:9 Accuracy: 0.7710 Time: 5.1676
+average: 0.7742,...0.005633234713140701,... [[400], [0]]...5.217151665175334, ... 144.9 ... 0.7814000000000002 ... 0.771
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6120 Time: 57.0435
+loop:1 Accuracy: 0.6550 Time: 56.0104
+loop:2 Accuracy: 0.6230 Time: 57.3904
+loop:3 Accuracy: 0.6630 Time: 55.4016
+loop:4 Accuracy: 0.6220 Time: 60.4695
+loop:5 Accuracy: 0.5730 Time: 59.8931
+loop:6 Accuracy: 0.5890 Time: 59.7178
+loop:7 Accuracy: 0.2820 Time: 62.6867
+loop:8 Accuracy: 0.5030 Time: 61.4229
+loop:9 Accuracy: 0.5740 Time: 53.3413
+average: 0.5696,...0.1110397326285606,... [[400], [400]]...58.33773402259685, ... 136.9 ... 0.6275000000000001 ... 0.574
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7730 Time: 120.6487
+loop:1 Accuracy: 0.7710 Time: 118.4262
+loop:2 Accuracy: 0.7740 Time: 115.5404
+loop:3 Accuracy: 0.7680 Time: 130.4879
+loop:4 Accuracy: 0.7620 Time: 113.9518
+loop:5 Accuracy: 0.7550 Time: 128.4507
+loop:6 Accuracy: 0.7670 Time: 114.7005
+loop:7 Accuracy: 0.7210 Time: 120.1104
+loop:8 Accuracy: 0.7680 Time: 114.8626
+loop:9 Accuracy: 0.7430 Time: 111.6873
+average: 0.7602000000000001,...0.01667199914693964,... [[400], [200]]...118.88664259766229, ... 179.8 ... 0.7757000000000001 ... 0.743
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7550 Time: 267.6003
+loop:1 Accuracy: 0.7560 Time: 246.4118
+loop:2 Accuracy: 0.7730 Time: 240.6408
+loop:3 Accuracy: 0.7430 Time: 259.5834
+loop:4 Accuracy: 0.7710 Time: 248.0020
+loop:5 Accuracy: 0.7670 Time: 247.1513
+loop:6 Accuracy: 0.7710 Time: 246.6689
+loop:7 Accuracy: 0.7660 Time: 240.4470
+loop:8 Accuracy: 0.7680 Time: 257.2949
+loop:9 Accuracy: 0.7310 Time: 272.0869
+average: 0.7601,...0.013868028779254193,... [[400], [100]]...252.58873067433015, ... 166.3 ... 0.7764 ... 0.731
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7690 Time: 487.4052
+loop:1 Accuracy: 0.7690 Time: 516.3594
+loop:2 Accuracy: 0.7410 Time: 481.8396
+loop:3 Accuracy: 0.7700 Time: 482.1157
+loop:4 Accuracy: 0.7790 Time: 501.5392
+loop:5 Accuracy: 0.7560 Time: 489.9883
+loop:6 Accuracy: 0.7270 Time: 472.1697
+loop:7 Accuracy: 0.7470 Time: 522.2242
+loop:8 Accuracy: 0.7640 Time: 530.4851
+loop:9 Accuracy: 0.7510 Time: 507.9080
+average: 0.7573000000000001,...0.01592377677144047,... [[400], [50]]...499.2034377693664, ... 175.0 ... 0.7719 ... 0.751
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7700 Time: 866.1922
+loop:1 Accuracy: 0.7650 Time: 856.4999
+loop:2 Accuracy: 0.7720 Time: 794.3416
+loop:3 Accuracy: 0.7680 Time: 844.9729
+loop:4 Accuracy: 0.7770 Time: 861.8767
+loop:5 Accuracy: 0.7470 Time: 829.6018
+loop:6 Accuracy: 0.7720 Time: 867.0004
+loop:7 Accuracy: 0.7420 Time: 844.6387
+loop:8 Accuracy: 0.7620 Time: 854.5730
+loop:9 Accuracy: 0.7540 Time: 832.2736
+average: 0.7628999999999999,...0.011618471882691335,... [[400], [25]]...845.1970744166523, ... 161.5 ... 0.7728 ... 0.754
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7680 Time: 5.7297
+loop:1 Accuracy: 0.7770 Time: 5.5350
+loop:2 Accuracy: 0.7630 Time: 5.4278
+loop:3 Accuracy: 0.7700 Time: 5.2764
+loop:4 Accuracy: 0.7790 Time: 5.3226
+loop:5 Accuracy: 0.7790 Time: 5.4902
+loop:6 Accuracy: 0.7770 Time: 5.3883
+loop:7 Accuracy: 0.7800 Time: 5.2867
+loop:8 Accuracy: 0.7720 Time: 5.6070
+loop:9 Accuracy: 0.7660 Time: 5.5598
+average: 0.7731000000000001,...0.006118278625016468,... [[200], [0]]...5.462352265464142, ... 112.5 ... 0.7831 ... 0.766
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6490 Time: 55.1466
+loop:1 Accuracy: 0.6300 Time: 61.2023
+loop:2 Accuracy: 0.5750 Time: 54.9229
+loop:3 Accuracy: 0.4750 Time: 69.6853
+loop:4 Accuracy: 0.5130 Time: 59.2951
+loop:5 Accuracy: 0.6330 Time: 52.3058
+loop:6 Accuracy: 0.5290 Time: 59.7822
+loop:7 Accuracy: 0.5860 Time: 59.9486
+loop:8 Accuracy: 0.5880 Time: 52.3923
+loop:9 Accuracy: 0.5840 Time: 55.9648
+average: 0.5761999999999999,...0.05595792069840416,... [[200], [400]]...58.06457934537902, ... 96.5 ... 0.6296 ... 0.584
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7670 Time: 103.9195
+loop:1 Accuracy: 0.7700 Time: 113.2520
+loop:2 Accuracy: 0.7700 Time: 111.9040
+loop:3 Accuracy: 0.7760 Time: 120.9362
+loop:4 Accuracy: 0.7730 Time: 106.7859
+loop:5 Accuracy: 0.7710 Time: 123.4555
+loop:6 Accuracy: 0.7700 Time: 117.1771
+loop:7 Accuracy: 0.7420 Time: 111.8478
+loop:8 Accuracy: 0.6710 Time: 122.7961
+loop:9 Accuracy: 0.7610 Time: 120.3722
+average: 0.7571000000000001,...0.03172258221239598,... [[200], [200]]...115.24462585272268, ... 160.0 ... 0.7691999999999999 ... 0.761
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7730 Time: 245.7275
+loop:1 Accuracy: 0.7680 Time: 229.7935
+loop:2 Accuracy: 0.7800 Time: 257.3747
+loop:3 Accuracy: 0.7790 Time: 252.5537
+loop:4 Accuracy: 0.7260 Time: 256.7703
+loop:5 Accuracy: 0.7840 Time: 241.1468
+loop:6 Accuracy: 0.7790 Time: 247.2361
+loop:7 Accuracy: 0.7470 Time: 249.7540
+loop:8 Accuracy: 0.7690 Time: 248.3906
+loop:9 Accuracy: 0.7670 Time: 238.9228
+average: 0.7672,...0.017849992219108185,... [[200], [100]]...246.76700129243545, ... 168.4 ... 0.7768999999999999 ... 0.767
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7560 Time: 506.4154
+loop:1 Accuracy: 0.7550 Time: 517.8431
+loop:2 Accuracy: 0.7720 Time: 492.2733
+loop:3 Accuracy: 0.7640 Time: 488.8125
+loop:4 Accuracy: 0.7770 Time: 458.6067
+loop:5 Accuracy: 0.7710 Time: 495.1876
+loop:6 Accuracy: 0.7660 Time: 514.9896
+loop:7 Accuracy: 0.7760 Time: 496.6545
+loop:8 Accuracy: 0.7670 Time: 478.2332
+loop:9 Accuracy: 0.7630 Time: 452.4750
+average: 0.7667,...0.00754320886625845,... [[200], [50]]...490.14909483809026, ... 176.5 ... 0.7760000000000001 ... 0.763
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7680 Time: 857.1351
+loop:1 Accuracy: 0.7750 Time: 802.3913
+loop:2 Accuracy: 0.7540 Time: 915.8129
+loop:3 Accuracy: 0.7320 Time: 888.1656
+loop:4 Accuracy: 0.7740 Time: 880.4078
+loop:5 Accuracy: 0.7720 Time: 803.0994
+loop:6 Accuracy: 0.7720 Time: 874.4983
+loop:7 Accuracy: 0.7720 Time: 851.9443
+loop:8 Accuracy: 0.7720 Time: 888.0354
+loop:9 Accuracy: 0.7730 Time: 865.1653
+average: 0.7664000000000001,...0.013500617269838701,... [[200], [25]]...862.6655311232898, ... 177.1 ... 0.7746999999999999 ... 0.773
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7720 Time: 6.1334
+loop:1 Accuracy: 0.7850 Time: 5.7945
+loop:2 Accuracy: 0.7730 Time: 5.7328
+loop:3 Accuracy: 0.7710 Time: 5.6401
+loop:4 Accuracy: 0.7720 Time: 5.9324
+loop:5 Accuracy: 0.7710 Time: 5.7098
+loop:6 Accuracy: 0.7650 Time: 5.5137
+loop:7 Accuracy: 0.7690 Time: 5.6206
+loop:8 Accuracy: 0.7730 Time: 5.6087
+loop:9 Accuracy: 0.7840 Time: 5.8274
+average: 0.7735,...0.006258327785172869,... [[100], [0]]...5.751357851037755, ... 117.8 ... 0.7841000000000001 ... 0.784
+----------.....................e.......................--------
+loop:0 Accuracy: 0.5190 Time: 65.0250
+loop:1 Accuracy: 0.5190 Time: 57.0732
+loop:2 Accuracy: 0.6370 Time: 56.3794
+loop:3 Accuracy: 0.4790 Time: 53.5672
+loop:4 Accuracy: 0.5920 Time: 58.2514
+loop:5 Accuracy: 0.7160 Time: 53.4715
+loop:6 Accuracy: 0.4600 Time: 65.2913
+loop:7 Accuracy: 0.5020 Time: 61.8339
+loop:8 Accuracy: 0.2820 Time: 60.7027
+loop:9 Accuracy: 0.6600 Time: 61.7183
+average: 0.5366,...0.12310086198813648,... [[100], [400]]...59.33138365442865, ... 117.5 ... 0.6232 ... 0.66
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7840 Time: 116.5342
+loop:1 Accuracy: 0.7600 Time: 121.6485
+loop:2 Accuracy: 0.7600 Time: 113.6137
+loop:3 Accuracy: 0.7650 Time: 112.3378
+loop:4 Accuracy: 0.7400 Time: 117.8225
+loop:5 Accuracy: 0.7780 Time: 111.2256
+loop:6 Accuracy: 0.7630 Time: 107.9920
+loop:7 Accuracy: 0.7340 Time: 115.1887
+loop:8 Accuracy: 0.7660 Time: 110.3911
+loop:9 Accuracy: 0.7590 Time: 122.2321
+average: 0.7609,...0.015051393438630354,... [[100], [200]]...114.89862354295329, ... 154.1 ... 0.7687 ... 0.759
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7670 Time: 243.7566
+loop:1 Accuracy: 0.7820 Time: 259.8643
+loop:2 Accuracy: 0.7550 Time: 258.1688
+loop:3 Accuracy: 0.7770 Time: 241.9402
+loop:4 Accuracy: 0.7660 Time: 253.1297
+loop:5 Accuracy: 0.7700 Time: 240.7481
+loop:6 Accuracy: 0.7680 Time: 258.9861
+loop:7 Accuracy: 0.7640 Time: 238.9890
+loop:8 Accuracy: 0.7580 Time: 283.3764
+loop:9 Accuracy: 0.7750 Time: 254.6300
+average: 0.7682,...0.008297255235585112,... [[100], [100]]...253.35893856170588, ... 172.7 ... 0.7776 ... 0.775
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7640 Time: 539.5379
+loop:1 Accuracy: 0.7740 Time: 495.7750
+loop:2 Accuracy: 0.7730 Time: 491.1761
+loop:3 Accuracy: 0.7420 Time: 476.4828
+loop:4 Accuracy: 0.7600 Time: 478.0505
+loop:5 Accuracy: 0.7180 Time: 519.9521
+loop:6 Accuracy: 0.7720 Time: 468.5352
+loop:7 Accuracy: 0.7730 Time: 484.6435
+loop:8 Accuracy: 0.7820 Time: 464.7563
+loop:9 Accuracy: 0.7210 Time: 475.8284
+average: 0.7579,...0.02295623856142138,... [[100], [50]]...489.4737837337889, ... 163.9 ... 0.7719 ... 0.721
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7470 Time: 839.9147
+loop:1 Accuracy: 0.7800 Time: 839.2115
+loop:2 Accuracy: 0.7740 Time: 852.5933
+loop:3 Accuracy: 0.7820 Time: 833.1785
+loop:4 Accuracy: 0.7520 Time: 809.4029
+loop:5 Accuracy: 0.7680 Time: 875.9419
+loop:6 Accuracy: 0.7580 Time: 860.1241
+loop:7 Accuracy: 0.7700 Time: 856.0195
+loop:8 Accuracy: 0.7770 Time: 854.4678
+loop:9 Accuracy: 0.7560 Time: 849.2247
+average: 0.7664000000000001,...0.012366621742955252,... [[100], [25]]...847.0079006348736, ... 166.3 ... 0.7776 ... 0.756
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7790 Time: 6.9010
+loop:1 Accuracy: 0.7760 Time: 6.2688
+loop:2 Accuracy: 0.7660 Time: 6.1014
+loop:3 Accuracy: 0.7710 Time: 5.9828
+loop:4 Accuracy: 0.7740 Time: 6.2668
+loop:5 Accuracy: 0.7760 Time: 6.1681
+loop:6 Accuracy: 0.7730 Time: 6.3382
+loop:7 Accuracy: 0.7820 Time: 6.2752
+loop:8 Accuracy: 0.7740 Time: 6.1983
+loop:9 Accuracy: 0.7720 Time: 6.4921
+average: 0.7743,...0.0043982319680122015,... [[50], [0]]...6.2992654732428495, ... 114.8 ... 0.7844999999999999 ... 0.772
+----------.....................e.......................--------
+loop:0 Accuracy: 0.4680 Time: 58.5328
+loop:1 Accuracy: 0.6230 Time: 57.5465
+loop:2 Accuracy: 0.6860 Time: 57.2613
+loop:3 Accuracy: 0.6300 Time: 61.9023
+loop:4 Accuracy: 0.5150 Time: 57.3032
+loop:5 Accuracy: 0.7160 Time: 54.2108
+loop:6 Accuracy: 0.5990 Time: 57.4608
+loop:7 Accuracy: 0.5850 Time: 63.1445
+loop:8 Accuracy: 0.5680 Time: 57.2980
+loop:9 Accuracy: 0.7310 Time: 51.6894
+average: 0.6121,...0.0842462659904481,... [[50], [400]]...57.63496957663447, ... 139.1 ... 0.6511 ... 0.731
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7530 Time: 121.3474
+loop:1 Accuracy: 0.7710 Time: 117.0716
+loop:2 Accuracy: 0.7640 Time: 117.6936
+loop:3 Accuracy: 0.7780 Time: 117.5768
+loop:4 Accuracy: 0.7770 Time: 118.3743
+loop:5 Accuracy: 0.7570 Time: 118.8835
+loop:6 Accuracy: 0.7440 Time: 114.8326
+loop:7 Accuracy: 0.7640 Time: 122.2155
+loop:8 Accuracy: 0.7640 Time: 121.5663
+loop:9 Accuracy: 0.7790 Time: 114.0979
+average: 0.7651000000000001,...0.011532080856848391,... [[50], [200]]...118.36596040935255, ... 166.4 ... 0.7773000000000001 ... 0.779
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7570 Time: 242.7838
+loop:1 Accuracy: 0.7770 Time: 259.0116
+loop:2 Accuracy: 0.7820 Time: 255.2966
+loop:3 Accuracy: 0.7630 Time: 259.6804
+loop:4 Accuracy: 0.7800 Time: 243.8591
+loop:5 Accuracy: 0.7480 Time: 248.0534
+loop:6 Accuracy: 0.7780 Time: 260.9448
+loop:7 Accuracy: 0.7740 Time: 261.2336
+loop:8 Accuracy: 0.7690 Time: 266.0372
+loop:9 Accuracy: 0.7470 Time: 247.4918
+average: 0.7675,...0.013091557924437,... [[50], [100]]...254.4392223564908, ... 170.0 ... 0.7814000000000001 ... 0.747
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7780 Time: 468.3064
+loop:1 Accuracy: 0.7590 Time: 494.9891
+loop:2 Accuracy: 0.7600 Time: 486.0755
+loop:3 Accuracy: 0.7680 Time: 489.8581
+loop:4 Accuracy: 0.7760 Time: 480.8347
+loop:5 Accuracy: 0.7720 Time: 508.1968
+loop:6 Accuracy: 0.7670 Time: 492.7283
+loop:7 Accuracy: 0.7660 Time: 521.0023
+loop:8 Accuracy: 0.7820 Time: 470.4014
+loop:9 Accuracy: 0.7790 Time: 441.7458
+average: 0.7706999999999999,...0.007986794656737396,... [[50], [50]]...485.4138298850041, ... 165.6 ... 0.7794000000000001 ... 0.779
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7750 Time: 809.5822
+loop:1 Accuracy: 0.7720 Time: 839.2777
+loop:2 Accuracy: 0.7420 Time: 807.5573
+loop:3 Accuracy: 0.7670 Time: 849.6659
+loop:4 Accuracy: 0.7680 Time: 830.1354
+loop:5 Accuracy: 0.7460 Time: 863.6622
+loop:6 Accuracy: 0.7620 Time: 876.0526
+loop:7 Accuracy: 0.7660 Time: 854.6931
+loop:8 Accuracy: 0.7610 Time: 845.0060

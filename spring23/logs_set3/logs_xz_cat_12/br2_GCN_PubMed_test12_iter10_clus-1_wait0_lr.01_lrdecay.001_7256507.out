@@ -1,0 +1,213 @@
+/work/ssahibul_umass_edu/broadcaster_nodes/spring23
+logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507; PubMed; iter:10; net set:12; conv type:GCN, gpu:NVIDIA A100-SXM4-80GB, cluster:-1, cluster wait:0, lr:0.01, lr decay:0.001 
+loop:0 Accuracy: 0.7820 Time: 5.0828
+loop:1 Accuracy: 0.7890 Time: 0.8970
+loop:2 Accuracy: 0.7810 Time: 0.8991
+loop:3 Accuracy: 0.7750 Time: 0.8964
+loop:4 Accuracy: 0.7830 Time: 0.8988
+loop:5 Accuracy: 0.7840 Time: 0.8987
+loop:6 Accuracy: 0.7850 Time: 0.8956
+loop:7 Accuracy: 0.7850 Time: 0.8951
+loop:8 Accuracy: 0.7940 Time: 0.8972
+loop:9 Accuracy: 0.7800 Time: 0.8985
+average: 0.7838,...0.005138093031466056,... [[0], [0]]...1.3159206329844892, ... 97.1 ... 0.7977000000000001 ... 0.78
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7530 Time: 39.2303
+loop:1 Accuracy: 0.7580 Time: 37.7147
+loop:2 Accuracy: 0.7230 Time: 38.3759
+loop:3 Accuracy: 0.7680 Time: 38.3821
+loop:4 Accuracy: 0.7640 Time: 37.8869
+loop:5 Accuracy: 0.7680 Time: 38.1334
+loop:6 Accuracy: 0.7780 Time: 38.2381
+loop:7 Accuracy: 0.7500 Time: 38.7884
+loop:8 Accuracy: 0.7350 Time: 39.6558
+loop:9 Accuracy: 0.7550 Time: 39.3213
+average: 0.7552,...0.01636255888708529,... [[0], [400]]...38.57269585859031, ... 110.7 ... 0.7794000000000001 ... 0.756
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7480 Time: 95.1633
+loop:1 Accuracy: 0.7550 Time: 103.0747
+loop:2 Accuracy: 0.7680 Time: 95.0728
+loop:3 Accuracy: 0.7490 Time: 93.1202
+loop:4 Accuracy: 0.7580 Time: 95.6666
+loop:5 Accuracy: 0.7530 Time: 96.1181
+loop:6 Accuracy: 0.7500 Time: 95.6273
+loop:7 Accuracy: 0.7250 Time: 96.6402
+loop:8 Accuracy: 0.7250 Time: 96.6463
+loop:9 Accuracy: 0.7320 Time: 95.7796
+average: 0.7463,...0.014391741458983432,... [[0], [200]]...96.29091374501586, ... 134.1 ... 0.7661 ... 0.733
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7490 Time: 223.4653
+loop:1 Accuracy: 0.7600 Time: 219.6764
+loop:2 Accuracy: 0.7050 Time: 213.1183
+loop:3 Accuracy: 0.7480 Time: 216.2209
+loop:4 Accuracy: 0.7510 Time: 208.0766
+loop:5 Accuracy: 0.7250 Time: 219.1134
+loop:6 Accuracy: 0.7530 Time: 222.7805
+loop:7 Accuracy: 0.7650 Time: 220.2354
+loop:8 Accuracy: 0.7440 Time: 228.4437
+loop:9 Accuracy: 0.7620 Time: 221.4292
+average: 0.7462,...0.018335151425002697,... [[0], [100]]...219.25596962487325, ... 90.3 ... 0.7805 ... 0.762
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6510 Time: 1.5688
+loop:1 Accuracy: 0.7480 Time: 1.5338
+loop:2 Accuracy: 0.7270 Time: 1.5107
+loop:3 Accuracy: 0.7210 Time: 1.5810
+loop:4 Accuracy: 0.7280 Time: 1.6414
+loop:5 Accuracy: 0.7210 Time: 1.6858
+loop:6 Accuracy: 0.7160 Time: 1.5730
+loop:7 Accuracy: 0.7110 Time: 1.5383
+loop:8 Accuracy: 0.6740 Time: 1.5647
+loop:9 Accuracy: 0.7200 Time: 1.6221
+average: 0.7117000000000001,...0.028253023437029397,... [[400], [0]]...1.5819635205902158, ... 120.6 ... 0.7566 ... 0.72
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7060 Time: 57.5804
+loop:1 Accuracy: 0.7490 Time: 78.0968
+loop:2 Accuracy: 0.7480 Time: 59.5889
+loop:3 Accuracy: 0.7580 Time: 65.8552
+loop:4 Accuracy: 0.7210 Time: 70.8293
+loop:5 Accuracy: 0.6950 Time: 64.7870
+loop:6 Accuracy: 0.7320 Time: 72.6942
+loop:7 Accuracy: 0.6960 Time: 65.9516
+loop:8 Accuracy: 0.7260 Time: 63.5349
+loop:9 Accuracy: 0.7490 Time: 73.3904
+average: 0.728,...0.023209193580705636,... [[400], [400]]...67.23088169880211, ... 145.4 ... 0.7545 ... 0.747
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6900 Time: 118.3085
+loop:1 Accuracy: 0.7300 Time: 118.3883
+loop:2 Accuracy: 0.7460 Time: 114.0122
+loop:3 Accuracy: 0.7410 Time: 123.5376
+loop:4 Accuracy: 0.6700 Time: 136.2391
+loop:5 Accuracy: 0.6750 Time: 135.6573
+loop:6 Accuracy: 0.6950 Time: 128.3959
+loop:7 Accuracy: 0.7240 Time: 116.4169
+loop:8 Accuracy: 0.7320 Time: 113.0709
+loop:9 Accuracy: 0.6980 Time: 114.6684
+average: 0.7101000000000001,...0.027750675667449962,... [[400], [200]]...121.8695176512003, ... 130.1 ... 0.7404 ... 0.698
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7250 Time: 236.1171
+loop:1 Accuracy: 0.7380 Time: 227.1525
+loop:2 Accuracy: 0.6810 Time: 236.5309
+loop:3 Accuracy: 0.7100 Time: 238.6234
+loop:4 Accuracy: 0.7220 Time: 258.7531
+loop:5 Accuracy: 0.6920 Time: 242.1616
+loop:6 Accuracy: 0.7500 Time: 244.2937
+loop:7 Accuracy: 0.7290 Time: 241.0676
+loop:8 Accuracy: 0.7610 Time: 231.2770
+loop:9 Accuracy: 0.7360 Time: 232.9497
+average: 0.7243999999999999,...0.02468107687187809,... [[400], [100]]...238.8926558414474, ... 144.0 ... 0.7481 ... 0.736
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6940 Time: 1.7415
+loop:1 Accuracy: 0.7160 Time: 1.6647
+loop:2 Accuracy: 0.6580 Time: 1.6887
+loop:3 Accuracy: 0.6910 Time: 1.8188
+loop:4 Accuracy: 0.6500 Time: 1.7082
+loop:5 Accuracy: 0.7160 Time: 1.6418
+loop:6 Accuracy: 0.7050 Time: 2.0004
+loop:7 Accuracy: 0.7050 Time: 1.6405
+loop:8 Accuracy: 0.6760 Time: 1.7339
+loop:9 Accuracy: 0.5950 Time: 1.7089
+average: 0.6806,...0.03768347707476638,... [[200], [0]]...1.7347539555281402, ... 137.0 ... 0.7371999999999999 ... 0.595
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7500 Time: 63.2593
+loop:1 Accuracy: 0.7200 Time: 72.7123
+loop:2 Accuracy: 0.6790 Time: 71.0634
+loop:3 Accuracy: 0.6990 Time: 57.3035
+loop:4 Accuracy: 0.7090 Time: 70.6270
+loop:5 Accuracy: 0.7260 Time: 72.5287
+loop:6 Accuracy: 0.7490 Time: 58.5951
+loop:7 Accuracy: 0.6920 Time: 62.0793
+loop:8 Accuracy: 0.7030 Time: 71.5912
+loop:9 Accuracy: 0.7110 Time: 62.6875
+average: 0.7138,...0.023068978689525416,... [[200], [400]]...66.24472873806954, ... 161.6 ... 0.7384999999999999 ... 0.712
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7550 Time: 125.6339
+loop:1 Accuracy: 0.6600 Time: 111.4896
+loop:2 Accuracy: 0.6960 Time: 100.0606
+loop:3 Accuracy: 0.7130 Time: 114.3529
+loop:4 Accuracy: 0.7020 Time: 128.2257
+loop:5 Accuracy: 0.6960 Time: 114.5671
+loop:6 Accuracy: 0.6950 Time: 84.1906
+loop:7 Accuracy: 0.6410 Time: 112.8426
+loop:8 Accuracy: 0.6770 Time: 116.1844
+loop:9 Accuracy: 0.6860 Time: 116.5879
+average: 0.6920999999999999,...0.030617533103327127,... [[200], [200]]...112.41353746503592, ... 169.4 ... 0.7316 ... 0.686
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7240 Time: 209.9985
+loop:1 Accuracy: 0.7190 Time: 222.1035
+loop:2 Accuracy: 0.7400 Time: 192.0414
+loop:3 Accuracy: 0.6930 Time: 171.9873
+loop:4 Accuracy: 0.6760 Time: 207.9593
+loop:5 Accuracy: 0.7450 Time: 190.2727
+loop:6 Accuracy: 0.6220 Time: 175.7586
+loop:7 Accuracy: 0.6740 Time: 185.9859
+loop:8 Accuracy: 0.7150 Time: 189.8565
+loop:9 Accuracy: 0.6980 Time: 181.7123
+average: 0.7006,...0.036776200033294466,... [[200], [100]]...192.7676064993255, ... 133.8 ... 0.732 ... 0.698
+----------.....................e.......................--------
+loop:0 Accuracy: 0.7100 Time: 2.2656
+loop:1 Accuracy: 0.7290 Time: 1.8020
+loop:2 Accuracy: 0.7330 Time: 1.7983
+loop:3 Accuracy: 0.6800 Time: 1.8807
+loop:4 Accuracy: 0.6890 Time: 1.9600
+loop:5 Accuracy: 0.7080 Time: 2.0234
+loop:6 Accuracy: 0.6700 Time: 2.3602
+loop:7 Accuracy: 0.7170 Time: 2.3669
+loop:8 Accuracy: 0.6690 Time: 1.8298
+loop:9 Accuracy: 0.7580 Time: 2.2031
+average: 0.7062999999999999,...0.029310786789545948,... [[100], [0]]...2.0490005798637867, ... 150.2 ... 0.7358 ... 0.758
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6730 Time: 65.9709
+loop:1 Accuracy: 0.6960 Time: 90.3427
+loop:2 Accuracy: 0.6360 Time: 76.3495
+loop:3 Accuracy: 0.7060 Time: 67.2241
+loop:4 Accuracy: 0.6040 Time: 80.5915
+loop:5 Accuracy: 0.7010 Time: 78.2046
+loop:6 Accuracy: 0.6510 Time: 70.1931
+loop:7 Accuracy: 0.6780 Time: 72.4662
+loop:8 Accuracy: 0.6910 Time: 76.5799
+loop:9 Accuracy: 0.6720 Time: 69.9488
+average: 0.6708,...0.032175905408999575,... [[100], [400]]...74.78714294014499, ... 113.6 ... 0.7161 ... 0.672
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6890 Time: 109.9062
+loop:1 Accuracy: 0.7280 Time: 116.7238
+loop:2 Accuracy: 0.6910 Time: 134.2642
+loop:3 Accuracy: 0.6480 Time: 125.2855
+loop:4 Accuracy: 0.6520 Time: 145.3016
+loop:5 Accuracy: 0.6880 Time: 138.2877
+loop:6 Accuracy: 0.6810 Time: 121.6825
+loop:7 Accuracy: 0.7020 Time: 122.2857
+loop:8 Accuracy: 0.6960 Time: 111.1877
+loop:9 Accuracy: 0.7180 Time: 138.6031
+average: 0.6893,...0.025161920082184132,... [[100], [200]]...126.35280842157081, ... 152.0 ... 0.7182000000000001 ... 0.718
+----------.....................e.......................--------
+loop:0 Accuracy: 0.6170 Time: 226.0475
+loop:1 Accuracy: 0.6960 Time: 253.2401
+loop:2 Accuracy: 0.6680 Time: 216.8166
+loop:3 Accuracy: 0.6900 Time: 192.2302
+loop:4 Accuracy: 0.6660 Time: 183.9394
+loop:5 Accuracy: 0.7090 Time: 221.6566
+loop:6 Accuracy: 0.7130 Time: 165.4828
+loop:7 Accuracy: 0.6910 Time: 198.3503
+loop:8 Accuracy: 0.7370 Time: 197.2299
+loop:9 Accuracy: 0.6930 Time: 173.5891
+average: 0.688,...0.03247905307869809,... [[100], [100]]...202.85826137913392, ... 138.5 ... 0.7248 ... 0.693
+----------.....................e.......................--------
+[['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[0], [0]], [[0], [0]], [[0], [0]], 0.005138093031466056, 1.3159206329844892, 97.1, 0.7977000000000001, 0.78, 0.7838], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[0], [16.33]], [[0], [49]], [[0], [400]], 0.01636255888708529, 38.57269585859031, 110.7, 0.7794000000000001, 0.756, 0.7552], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[0], [33.0]], [[0], [99]], [[0], [200]], 0.014391741458983432, 96.29091374501586, 134.1, 0.7661, 0.733, 0.7463], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[0], [65.67]], [[0], [197]], [[0], [100]], 0.018335151425002697, 219.25596962487325, 90.3, 0.7805, 0.762, 0.7462], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[16.33], [0]], [[49], [0]], [[400], [0]], 0.028253023437029397, 1.5819635205902158, 120.6, 0.7566, 0.72, 0.7117000000000001], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[16.33], [16.33]], [[49], [49]], [[400], [400]], 0.023209193580705636, 67.23088169880211, 145.4, 0.7545, 0.747, 0.728], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[16.33], [33.0]], [[49], [99]], [[400], [200]], 0.027750675667449962, 121.8695176512003, 130.1, 0.7404, 0.698, 0.7101000000000001], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[16.33], [65.67]], [[49], [197]], [[400], [100]], 0.02468107687187809, 238.8926558414474, 144.0, 0.7481, 0.736, 0.7243999999999999], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[33.0], [0]], [[99], [0]], [[200], [0]], 0.03768347707476638, 1.7347539555281402, 137.0, 0.7371999999999999, 0.595, 0.6806], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[33.0], [16.33]], [[99], [49]], [[200], [400]], 0.023068978689525416, 66.24472873806954, 161.6, 0.7384999999999999, 0.712, 0.7138], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[33.0], [33.0]], [[99], [99]], [[200], [200]], 0.030617533103327127, 112.41353746503592, 169.4, 0.7316, 0.686, 0.6920999999999999], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[33.0], [65.67]], [[99], [197]], [[200], [100]], 0.036776200033294466, 192.7676064993255, 133.8, 0.732, 0.698, 0.7006], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[65.67], [0]], [[197], [0]], [[100], [0]], 0.029310786789545948, 2.0490005798637867, 150.2, 0.7358, 0.758, 0.7062999999999999], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[65.67], [16.33]], [[197], [49]], [[100], [400]], 0.032175905408999575, 74.78714294014499, 113.6, 0.7161, 0.672, 0.6708], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[65.67], [33.0]], [[197], [99]], [[100], [200]], 0.025161920082184132, 126.35280842157081, 152.0, 0.7182000000000001, 0.718, 0.6893], ['logs_xz_cat_12/br2_GCN_PubMed_test12_iter10_clus-1_wait0_lr.01_lrdecay.001_7256507', 0.01, 0.001, 'NVIDIA A100-SXM4-80GB', 10, -1, 0, 2, 'PubMed', 'GCN', [32], [[65.67], [65.67]], [[197], [197]], [[100], [100]], 0.03247905307869809, 202.85826137913392, 138.5, 0.7248, 0.693, 0.688]]
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [0]]||k-number:[[0], [0]]||nodes/clusters:[[0], [0]]||stddev:0.005138093031466056||time:1.3159206329844892||train peak:97.1||avg peak train acc:0.7977000000000001||end train acc:0.78||avg test acc:0.7838
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [16.33]]||k-number:[[0], [49]]||nodes/clusters:[[0], [400]]||stddev:0.01636255888708529||time:38.57269585859031||train peak:110.7||avg peak train acc:0.7794000000000001||end train acc:0.756||avg test acc:0.7552
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [33.0]]||k-number:[[0], [99]]||nodes/clusters:[[0], [200]]||stddev:0.014391741458983432||time:96.29091374501586||train peak:134.1||avg peak train acc:0.7661||end train acc:0.733||avg test acc:0.7463
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[0], [65.67]]||k-number:[[0], [197]]||nodes/clusters:[[0], [100]]||stddev:0.018335151425002697||time:219.25596962487325||train peak:90.3||avg peak train acc:0.7805||end train acc:0.762||avg test acc:0.7462
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[16.33], [0]]||k-number:[[49], [0]]||nodes/clusters:[[400], [0]]||stddev:0.028253023437029397||time:1.5819635205902158||train peak:120.6||avg peak train acc:0.7566||end train acc:0.72||avg test acc:0.7117000000000001
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[16.33], [16.33]]||k-number:[[49], [49]]||nodes/clusters:[[400], [400]]||stddev:0.023209193580705636||time:67.23088169880211||train peak:145.4||avg peak train acc:0.7545||end train acc:0.747||avg test acc:0.728
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[16.33], [33.0]]||k-number:[[49], [99]]||nodes/clusters:[[400], [200]]||stddev:0.027750675667449962||time:121.8695176512003||train peak:130.1||avg peak train acc:0.7404||end train acc:0.698||avg test acc:0.7101000000000001
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[16.33], [65.67]]||k-number:[[49], [197]]||nodes/clusters:[[400], [100]]||stddev:0.02468107687187809||time:238.8926558414474||train peak:144.0||avg peak train acc:0.7481||end train acc:0.736||avg test acc:0.7243999999999999
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[33.0], [0]]||k-number:[[99], [0]]||nodes/clusters:[[200], [0]]||stddev:0.03768347707476638||time:1.7347539555281402||train peak:137.0||avg peak train acc:0.7371999999999999||end train acc:0.595||avg test acc:0.6806
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[33.0], [16.33]]||k-number:[[99], [49]]||nodes/clusters:[[200], [400]]||stddev:0.023068978689525416||time:66.24472873806954||train peak:161.6||avg peak train acc:0.7384999999999999||end train acc:0.712||avg test acc:0.7138
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[33.0], [33.0]]||k-number:[[99], [99]]||nodes/clusters:[[200], [200]]||stddev:0.030617533103327127||time:112.41353746503592||train peak:169.4||avg peak train acc:0.7316||end train acc:0.686||avg test acc:0.6920999999999999
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[33.0], [65.67]]||k-number:[[99], [197]]||nodes/clusters:[[200], [100]]||stddev:0.036776200033294466||time:192.7676064993255||train peak:133.8||avg peak train acc:0.732||end train acc:0.698||avg test acc:0.7006
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[65.67], [0]]||k-number:[[197], [0]]||nodes/clusters:[[100], [0]]||stddev:0.029310786789545948||time:2.0490005798637867||train peak:150.2||avg peak train acc:0.7358||end train acc:0.758||avg test acc:0.7062999999999999
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[65.67], [16.33]]||k-number:[[197], [49]]||nodes/clusters:[[100], [400]]||stddev:0.032175905408999575||time:74.78714294014499||train peak:113.6||avg peak train acc:0.7161||end train acc:0.672||avg test acc:0.6708
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[65.67], [33.0]]||k-number:[[197], [99]]||nodes/clusters:[[100], [200]]||stddev:0.025161920082184132||time:126.35280842157081||train peak:152.0||avg peak train acc:0.7182000000000001||end train acc:0.718||avg test acc:0.6893
+layers:10||learn rate:0.01||learn decay:0.001||gpu:NVIDIA A100-SXM4-80GB||clustering_type:-1||clustering_wait:0||num_layers:2||dataset:PubMed||convType:GCN||layer_out_dim:[32]||k-proportional:[[65.67], [65.67]]||k-number:[[197], [197]]||nodes/clusters:[[100], [100]]||stddev:0.03247905307869809||time:202.85826137913392||train peak:138.5||avg peak train acc:0.7248||end train acc:0.693||avg test acc:0.688
+15650.4590523988
+uri-gpu004
